@@ -49,3 +49,29 @@ let usersSchema = mongoose.Schema({
   });
   export let ArticlesList = mongoose.model("cjarticles", articlesSchema);
 
+  let pagesSchema = mongoose.Schema({
+    pNum: Number,
+    pParent: Number,
+    pOrdre: Number,
+    pActif: Boolean,
+    pType: String,
+    pNom: String,
+    pTitre: String,
+    pExplication: String,
+    pDateCreat: Date,
+    pDateMaj: Date
+  });
+  export let PagesList = mongoose.model("cjpages", pagesSchema);
+
+  let pagesElementsSchema = mongoose.Schema({
+    eNum: Number,
+    ePage: Number,
+    eOrdre: Number,
+    eType: String,
+    eTitre: String,
+    ePhoto: String,
+    eText: String
+  });
+  export let PagesElementsList = mongoose.model("cjpageselements", pagesElementsSchema);
+
+  
