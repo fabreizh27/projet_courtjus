@@ -3,8 +3,8 @@ import {Route, Routes, BrowserRouter } from "react-router-dom";
 import Header from './components/header';
 import Travel from './components/travel';
 import Producteurs from './components/producteurs';
+import UserView from './components/userFiche';
 import Footer from './components/footer';
-
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
           <Route path="/" element={<Travel />} />
           <Route path="/travel" element={<Travel />} />
           <Route path="/travel/:postId" element={<Travel />} />
+          <Route path="/userfiche" element={<UserView />} />
+          <Route path="/userfiche/:postId" element={<UserView />} />
           <Route path="/producteurs" element={<Producteurs />} />
           <Route
               path="*"

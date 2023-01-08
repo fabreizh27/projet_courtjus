@@ -37,7 +37,6 @@ const Travel = (props) =>{
           .then(response => response.json())
           .then(res => {
             setElements(res);
-            console.log(res)
           });
       }, []);
   

@@ -7,7 +7,7 @@ import bcrypt from 'bcrypt';
 import { SITE_COURTJUS } from './src/constants/sources.js';
 
 
-app.use(cors({ origin: false }));
+app.use(cors({ origin: true }));
 app.use(express.json()) 
 app.use(express.urlencoded({ extended: true }))
 
@@ -32,11 +32,42 @@ app.get("/users/:postId", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
   const { postId } = req.params;
   console.log("utilisateur " + postId);
-  UsersList.find({uMail:postId},(err, user) => {
+  UsersList.findOne({uNum:postId},(err, user) => {
     if(err) return console.error(err)
     res.json(user);
   })
 });
+
+app.post("/userconnect", (req, res) => {
+  console.log("reception userConnect");  
+
+  let retour = null
+  let userPassWord = ""
+  UsersList.find({uMail:req.body.email},(err, user) => {
+      if(err) return console.error(err)
+      user.length>0 ? userPassWord=user[0].uPass : userPassWord=""
+      bcrypt.compare(req.body.mdp, userPassWord, function(err, result){
+          if (result) {
+            const ladate=new Date()
+            retour = user
+            UsersList.findOneAndUpdate({email:req.body.email}, {"uDateLastConnect":ladate}, () => {
+         })
+         }
+         res.json(retour); 
+      })
+    })
+});
+
+
+// app.get("/updateUsertest", (req, res) => {
+//   console.log("maj d'un utilisateur");  
+//   bcrypt.hash("303668721", 5, function(err, hash){
+//     UsersList.findOneAndUpdate({uNum:18}, {"uPass":hash}, () => {
+//       res.json(hash);
+//     })
+//   })
+// })
+
 
 app.get("/articles", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);

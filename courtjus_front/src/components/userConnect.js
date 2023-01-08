@@ -30,7 +30,7 @@ const UserConnect = (props) =>{
                 if (data===null) {
                     setUser(oldUser => { return {...user,msg: "Mot de passe ou adresse mail incorrect ! "}; });
                 } else {
-                    setUser(oldUser => { return {...user,msg: "Bonjour " + data[0].pseudo,}; });
+                    setUser(oldUser => { return {...user,msg: "Bonjour " + data[0].uPrenom,}; });
                     dispatch(connectUser({data}))
                 }
             })
@@ -52,7 +52,7 @@ const UserConnect = (props) =>{
 
         <section className="nav-admin">
            {userNum===0 &&
-            <form method="POST" id="formConnect" className="connectUser" onSubmit={handleSubmit}>
+            <form method="POST" id="formConnect" onSubmit={handleSubmit}>
                 Mail 
                 <input type="email" name="email" id="email" value={user.email} onChange={handleChange} required /> 
                 Mot de passe 
@@ -60,7 +60,7 @@ const UserConnect = (props) =>{
                 <button>&gt;&gt;</button>
             </form>
             }
-            {user.msg && <div id="divConnect" className="connectUser"> {user.msg} </div> }
+            {user.msg && <div id="divConnect"> {user.msg} </div> }
         </section>
 
     )
