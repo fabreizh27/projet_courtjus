@@ -1,48 +1,67 @@
-import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER } from '../constants/actions';
+import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE } from '../constants/actions';
 
-// payload correspond à ce que vous allez passer comme valeur à votre action { ... name : "Super basket", force : 10 }
-
+// afficher menu utilisateur ou la demande de connection
 export const viewMenu = () => {
-    console.log("switchMenu");
     return {
         type: VIEW_MENU
     }
 };
 
+// masquer menu utilisateur ou la demande de connection
 export const hideMenu = () => {
-    console.log("switchMenu");
     return {
         type: HIDE_MENU
     }
 };
 
+// connection utilisateur
 export const connectUser = payload => {
-    console.log("connectUser");
     return {
         type: CONNECT_USER, payload
     }
 };
 
+// deconnecter l'utilisateur
 export const deconnectUser = () => {
-    console.log("deconnectUser");
     return {
         type: DECONNECT_USER
     }
 };
 
+// creer un nouvel utilisateur
 export const insertUser = payload => {
-    console.log("insertUser");
     return {
         type: INSERT_USER, payload
     }
 };
+
+// modifier les infos d'un utilisateur
 export const updateUser = payload => {
-    console.log("updateUser");
     return {
         type: UPDATE_USER, payload
     }
 };
 
+// creer une nouvelle Biasse / marché
+export const insertBiasse = payload => {
+    return {
+        type: INSERT_BIASSE, payload
+    }
+};
+
+// modifier les infos d'une biasse
+export const updateBiasse = payload => {
+    return {
+        type: UPDATE_BIASSE, payload
+    }
+};
+
+// supprimer une biasse
+export const deleteBiasse = payload => {
+    return {
+        type: DELETE_BIASSE, payload
+    }
+};
 
 
 

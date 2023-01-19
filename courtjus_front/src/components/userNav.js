@@ -33,8 +33,8 @@ const UserNav = (props) =>{
                 {userAdherent &&<NavLink to="#" aria-label="Voir mon Panier" title="Voir mon Panier"><img src="/img/shopping_list.png" /></NavLink>}
                 {secuCommandes &&<NavLink to="#" aria-label="Voir les Commandes" title="Voir les Commandes"><img src="/img/shopping_check.png" /><img src="/img/list.png" /></NavLink>}
                 {secuArticles &&<NavLink to="#" aria-label="Gérer les Articles à la vente" title="Gérer les Articles à la vente"><img src="/img/grass.png" /><img src="/img/nutrition.png" /><img src="/img/liquor.png" /><img src="/img/spa.png" /></NavLink>}
-                {userAdmin &&<NavLink to="#" aria-label="Gérer les Marchés" title="Gérer les Marchés"><img src="/img/storefront.png" /><img src="/img/storefront.png" /></NavLink>}	
-                {userAdmin &&<NavLink to="/userfiche/6" aria-label="Gérer les Membres" title="Gérer les Membres"><img src="/img/users.png" /><img src="/img/users.png" /></NavLink>}
+                {userAdmin &&<NavLink to="/biasses" aria-label="Gérer les Marchés" title="Gérer les Marchés"><img src="/img/storefront.png" /><img src="/img/storefront.png" /></NavLink>}	
+                {userAdmin &&<NavLink to="/adherents" aria-label="Gérer les Membres" title="Gérer les Membres"><img src="/img/users.png" /><img src="/img/users.png" /></NavLink>}
             </section>
         }
         </>

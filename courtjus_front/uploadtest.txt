@@ -1,0 +1,47 @@
+import React, { useEffect, useState } from "react";
+function Product() {
+
+    const { REACT_APP_REST } = process.env;
+
+    const [file, setFile] = useState([]);
+
+    const handleFile = event => {
+        setFile(
+            URL.createObjectURL(event.target.files[0])
+        );
+        const formData = new FormData();
+        formData.append("fileupload", event.target.files[0]);
+
+        fetch(REACT_APP_REST + "/product/upload", {
+            method: 'POST',
+
+            body: formData,
+            dataType: "jsonp"
+        })
+    };
+    return (
+        <>
+            <Container fluid>
+                <Col md="4">
+                    <Card className="card-user">
+                        <img src={file} />
+                        <Card.Body>
+                            <Form.Group>
+                                <label>IMAGE</label>
+                                <Form.Control
+                                    type="file"
+                                    required="required"
+                                    onChange={handleFile}
+                                ></Form.Control>
+                            </Form.Group>
+                        </Card.Body>
+                        <hr></hr>
+
+                    </Card>
+                </Col>
+            </Container>
+        </>
+    );
+}
+
+export default Product;

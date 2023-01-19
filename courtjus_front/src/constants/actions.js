@@ -1,6 +1,9 @@
-export const VIEW_MENU = 'VIEW_MENU';
-export const HIDE_MENU = 'HIDE_MENU';
-export const CONNECT_USER = 'CONNECT_USER';
-export const DECONNECT_USER = 'DECONNECT_USER';
-export const UPDATE_USER = 'UPDATE_USER';
-export const INSERT_USER = 'INSERT_USER';
+export const VIEW_MENU = 'VIEW_MENU'; // afficher menu utilisateur ou la demande de connection
+export const HIDE_MENU = 'HIDE_MENU'; // masquer menu utilisateur ou la demande de connection
+export const CONNECT_USER = 'CONNECT_USER'; // connection utilisateur
+export const DECONNECT_USER = 'DECONNECT_USER'; // deconnecter l'utilisateur
+export const UPDATE_USER = 'UPDATE_USER'; // creer un nouvel utilisateur
+export const INSERT_USER = 'INSERT_USER'; // modifier les infos d'un utilisateur
+export const UPDATE_BIASSE = 'UPDATE_BIASSE'; // creer une nouvelle biasse / marché
+export const INSERT_BIASSE = 'INSERT_BIASSE'; // modifier les infos de la biasse
+export const DELETE_BIASSE = 'DELETE_BIASSE'; // supprimer une Biasse

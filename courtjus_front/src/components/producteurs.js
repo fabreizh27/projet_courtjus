@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import {useEffect, useState} from 'react';
 import {useSelector} from "react-redux"
 import { URL_COURTJUS_BACK } from '../constants/sources.js';
+import { NavLink } from "react-router-dom";
 
 const Producteurs = (props) =>{
 
@@ -24,13 +25,12 @@ const Producteurs = (props) =>{
         event.preventDefault();
         const {name, value} = event.target;
         setFiltre(value);
-        fetch(`${URL_COURTJUS_BACK}/producteurs/${filtre}`)
+        fetch(`${URL_COURTJUS_BACK}/producteurs/${value}`)
             .then(response => response.json())
             .then(res => {
             setProducteurs(res);
         });
       };
-
 
 
     return(
@@ -44,6 +44,7 @@ const Producteurs = (props) =>{
 					<input type="text" name="filtre" id="filtre" value={filtre} onChange={handleChange} /> 
 				</form>	
             </section>
+            <section className='main-title'><p>Les producteurs</p></section>
             {producteurs.map((q, i) =>
 			    <section className="section-prods" key={i}>
                     <img src={`/img/pictures/${q.uPhotoProfil}`} alt="la photo du 1er article" className="float-prods" />
@@ -54,8 +55,9 @@ const Producteurs = (props) =>{
                         <p>{q.uMailPro && q.uMailPro}{q.uMailPro==="" && q.uMail}</p>
                         <p>{q.uTel}</p>
                         <p>{q.uAdr_CP} {q.uAdr_Ville}</p>
-                        
-                        <a className="btn-detail" href="#" aria-label="Detail producteur" title="Detail producteur"><img src="img/double_arrow_D.png" /></a>					
+                        <div className="btn-detail">
+                            <NavLink  aria-label="voir plus" title="voir plus"><img src="img/double_arrow_DG.png" /></NavLink>
+                        </div>	
                     </article>
                     <article className="section-prods-infos">
                         <p>{q.uInfosComp}</p>

@@ -28,7 +28,7 @@ const Header = (props) =>{
 				{userMenu && <NavLink className="btn-admin" aria-label="admin" onClick={clickOff} title="admin"><img src="/img/manage_user.png" /></NavLink>}
     		    <NavLink to="./travel/1" aria-label="Qui sommes nous" title="Qui sommes nous">Qui sommes nous</NavLink>
     		    <NavLink to="./producteurs" aria-label="Nos Producteurs" title="Nos Producteurs">Nos Producteurs</NavLink>
-    		    <NavLink to="#" aria-label="Producteurs locaux" title="Les Biasses - Les Marchés">Les Biasses - Les Marchés</NavLink>
+    		    <NavLink to="./biasses" aria-label="Les Biasses - Les Marchés" title="Les Biasses - Les Marchés">Les Biasses - Les Marchés</NavLink>
             </nav>
 		</header>
 

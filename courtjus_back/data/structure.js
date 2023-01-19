@@ -49,6 +49,18 @@ let usersSchema = mongoose.Schema({
   });
   export let ArticlesList = mongoose.model("cjarticles", articlesSchema);
 
+  let biassesSchema = mongoose.Schema({
+    bNum: Number,
+    bLibelle: String,
+    bComment: String,
+    bDate: Date,
+    bDateCdeIni: Date,
+    bDateCdeEnd: Date,
+    bParticipants:[], 
+
+  });
+  export let BiassesList = mongoose.model("cjbiasses", biassesSchema);
+
   let pagesSchema = mongoose.Schema({
     pNum: Number,
     pParent: Number,

@@ -1,8 +1,7 @@
 import React from 'react';
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import {useSelector, useDispatch} from "react-redux"
 import { connectUser } from '../actions/actions-types';
-import { NavLink } from "react-router-dom";
 
 const UserConnect = (props) =>{
 
@@ -30,7 +29,7 @@ const UserConnect = (props) =>{
                 if (data===null) {
                     setUser(oldUser => { return {...user,msg: "Mot de passe ou adresse mail incorrect ! "}; });
                 } else {
-                    setUser(oldUser => { return {...user,msg: "Bonjour " + data[0].uPrenom,}; });
+                    setUser(oldUser => { return {...user,msg: "" + data[0].uPrenom,}; });
                     dispatch(connectUser({data}))
                 }
             })
