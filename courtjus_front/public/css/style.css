@@ -13,6 +13,7 @@
     --bs-main-light-color:#b9b9b9;
     --bs-main-h-font:"Aclonica", sans-serif;
     --bs-main-sectionprod-bg-color:#EFEFEF;
+    --bs-main-prods-bg-color:#ccc;
     --bs-main-sectionproda-bg-color:#d2e0b0;
 
     --bs-form-zone-bg-color:rgb(255, 232, 232);
@@ -276,6 +277,7 @@ form button{
 }
 
 /* vision des infos complementaires de la carte de visite */
+
 .section-prods:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     height: 30rem;
@@ -288,7 +290,6 @@ form button{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 1s;
 }
-
 
 .section-prods h2{
     font-family:var(--bs-main-h-font);
@@ -323,6 +324,20 @@ form button{
 /* pour annuler le hover du section-prods */
 .section-prods-form:hover{
     height: auto;
+    overflow-y: auto;
+
+}
+
+.section-small {
+    padding: 1rem 0.2rem;
+    width: 80%;
+    height: 7rem;
+}
+
+.section-small:hover{
+    overflow-y:hidden;
+    height: 7rem;
+
 }
 
 .btn-main{
@@ -335,6 +350,66 @@ form button{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 6px, rgba(0, 0, 0, 0.20) 0px 3px 6px;
     text-decoration: none;
 }
+
+.btn-articles{
+    margin: 0rem 1rem;
+    padding: 0rem;
+    background-color: var(--bs-main-prods-bg-color);    
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-decoration: none;
+}
+
+.btn-articles:hover{
+    background-color: var(--bs-form-zone-bg-color);    
+}
+
+.biasse-list-particip{
+    background-color:var(--bs-main-prods-bg-color);
+    display: inline-block;
+    margin: 0.3rem 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 6px, rgba(0, 0, 0, 0.20) 0px 3px 6px;
+
+}
+
+
+/* zone de fiche selectionnée pour les articles */
+
+.zone-fiche-fixed {
+    padding:0.5rem 1rem;
+    position: fixed;
+    top:15vh;
+    height:70vh;
+    left: 20vw;
+    width:60vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid var(--bs-border-color);
+    background-color: var(--bs-main-sectionprod-bg-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.zone-fiche-fixed h2{
+    font-family:var(--bs-main-h-font);
+    margin: 1rem 0.2rem 0.1rem 0.2rem;
+    font-size: 1.2rem;
+}
+.zone-fiche-fixed h3{
+    margin: 0.5rem 0.2rem 0.1rem 1rem;
+    font-size: 1rem;
+
+}
+.zone-fiche-fixed p{
+    margin: 0.1rem 1rem;
+    font-size: 1rem;
+
+}
+
 
 
 /* Mode de mise en place des sections en fontion du type de page identifié en BDD */
@@ -378,6 +453,7 @@ form button{
 .p-impact {
     color: var(--bs-main-impact-color);
     font-weight: bold;
+    font-size: 0.8rem;
 }
 
 .span-light {
@@ -413,6 +489,10 @@ form button{
     width: 25rem;
 }
 
+.input-max{
+    width: 80%;
+}
+
 .input-small{
     width: 4rem;
 }
@@ -437,6 +517,15 @@ form button{
     border: 1px solid var(--bs-border-color);
     background-color: var(--bs-form-zone-bg-color);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.form-zone-disabled input {
+    border-top: 0px solid var(--bs-border-color);
+    border-right: 0px solid var(--bs-border-color);
+    border-left: 0px solid var(--bs-border-color);
+    border-bottom: 1px solid var(--bs-border-light-color);
+    background-color: var(--bs-form-zone-bg-color);
+    color: var(--bs-form-prix-color);
+    font-weight: bold;
 }
 
 .form-libelle{

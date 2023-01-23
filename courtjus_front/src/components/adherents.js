@@ -1,7 +1,6 @@
 import React from 'react';
 import UserNav from './userNav';
 import UserConnect from './userConnect';
-import { useParams } from "react-router-dom";
 import {useEffect, useState} from 'react';
 import {useSelector} from "react-redux"
 import { URL_COURTJUS_BACK } from '../constants/sources.js';
@@ -23,7 +22,7 @@ const Adherents = (props) =>{
   
       const handleChange = (event) => {
         event.preventDefault();
-        const {name, value} = event.target;
+        const {value} = event.target;
         setFiltre(value);
         let url=""
         value.length<1 ? url=`${URL_COURTJUS_BACK}/users` : url=`${URL_COURTJUS_BACK}/usersfiltre/${value}`;
@@ -43,11 +42,11 @@ const Adherents = (props) =>{
             {userCJ.uAdmin && <>
                 <section className="nav-admin">
                     <form method="POST" id="formFiltre" className='form-filtre'>
-                        <label htmlFor="filtre"><img src="img/search.png" /></label>
+                        <label htmlFor="filtre"><img src="img/search.png" alt="Recherche" /></label>
                         <input type="text" name="filtre" id="filtre" value={filtre} onChange={handleChange} />
                     </form>	
                 </section>
-                <section className='main-title'><p><NavLink to={`/userfiche/0`} aria-label="Ajouter un utilisateur" title="Ajouter un utilisateur"><img src="/img/user_add_b.png" /></NavLink> Adherents</p></section>
+                <section className='main-title'><p><NavLink to={`/userfiche/0`} aria-label="Ajouter un utilisateur" title="Ajouter un utilisateur"><img src="/img/user_add_b.png" alt="Ajouter"/></NavLink> Adherents</p></section>
                 {adherents.map((q, i) =>
                     <section className="section-prods" key={i}>
                         <img src={`/img/pictures/${q.uPhotoProfil}`} alt="la photo du 1er article" className="float-prods" />
@@ -59,8 +58,8 @@ const Adherents = (props) =>{
                             <p>{q.uTel}.</p>
                             <p>{q.uAdr_CP} {q.uAdr_Ville}.</p>
                             <div className="btn-detail">
-                                {(userCJ.uAdmin || userCJ.uNum===q.uNum) &&<NavLink to={`/userfiche/${q.uNum}`} aria-label="Modifier la fiche" title="modifier la fiche"><img src="/img/edit_R.png" /></NavLink>}	
-                                <NavLink  aria-label="Voir plus" title="Voir plus"><img src="img/double_arrow_DG.png" /></NavLink>
+                                {(userCJ.uAdmin || userCJ.uNum===q.uNum) &&<NavLink to={`/userfiche/${q.uNum}`} aria-label="Modifier la fiche" title="modifier la fiche"><img src="/img/edit_R.png" alt="Voir plus"/></NavLink>}	
+                                <NavLink  aria-label="Voir plus" title="Voir plus"><img src="img/double_arrow_DG.png" alt="voir plus" /></NavLink>
                             </div>	
                         </article>
                         <article className="section-prods-infos">
@@ -70,18 +69,18 @@ const Adherents = (props) =>{
                 )}
 
                 <section className="section-prods">
-                    <img src={`/img/pictures/profil.png`} alt="la photo du 1er article" className="float-prods" />
+                    <img src={`/img/pictures/profil.png`} alt="la photo de l article article" className="float-prods" />
                     <article className="section-prods-fiche">
                         <h2>&nbsp;</h2>
                         <p className="p-impact">&nbsp;</p>
-                        <NavLink to={`/userfiche/0`} className="btn-main" aria-label="Ajouter une fiche" title="Ajouter une fiche"><img src="/img/user_add_b.png" />Ajouter un utilisateur</NavLink>
+                        <NavLink to={`/userfiche/0`} className="btn-main" aria-label="Ajouter une fiche" title="Ajouter une fiche"><img src="/img/user_add_b.png" alt="Ajouter" />Ajouter un utilisateur</NavLink>
                         
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
                         <p>.</p>
                         <div className="btn-detail">
-                            <NavLink to={`/userfiche/0`} aria-label="Ajouter une fiche" title="Ajouter une fiche"><img src="/img/edit_R.png" /></NavLink>	
-                            <NavLink  aria-label="Voir plus" title="Voir plus"><img src="img/double_arrow_DG.png" /></NavLink>
+                            <NavLink to={`/userfiche/0`} aria-label="Ajouter une fiche" title="Ajouter une fiche"><img src="/img/edit_R.png" alt="Ajouter" /></NavLink>	
+                            <NavLink  aria-label="Voir plus" title="Voir plus"><img src="img/double_arrow_DG.png" alt="voir la suite" /></NavLink>
                         </div>	
                     </article>
                     <article className="section-prods-infos">

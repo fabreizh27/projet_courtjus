@@ -1,6 +1,7 @@
 import React from 'react';
 import UserNav from './userNav';
 import UserConnect from './userConnect';
+import BiassesProducteurs from './biassesProducteurs'
 import {useEffect, useState} from 'react';
 import {useSelector} from "react-redux"
 import { URL_COURTJUS_BACK } from '../constants/sources.js';
@@ -46,8 +47,11 @@ const Biasses = (props) =>{
                             </h3>
                         </article>
                         <article className="section-prods-infos">
-                        <p>{q.bComment}</p>
-                    </article>
+                            <p>{q.bComment}</p>
+                        </article>
+                        <article className="section-prods-infos">
+                            <BiassesProducteurs bParticipants={q.bParticipants} />
+                        </article>
                     </section>
                 )}
                 {userCJ.uAdmin && <section className="section-prods  section-prods-form">
@@ -58,6 +62,8 @@ const Biasses = (props) =>{
                         </p>
                     </article>
                 </section>}
+                <div className="main-down"></div>
+
         </main>
 
     )

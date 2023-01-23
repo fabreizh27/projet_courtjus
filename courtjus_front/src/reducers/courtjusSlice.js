@@ -1,11 +1,11 @@
-import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE } from '../constants/actions';
+import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE, INSERT_ARTICLE, UPDATE_ARTICLE } from '../constants/actions';
 import { USER_INIT } from '../constants/globals';
 
 let stateInit = {
         msg:"", //message d'alerte si besoin
         userMenu:false, // affichage menu utilisateur ou la demande de connection
         userCJ: USER_INIT // session utilisateur
-    }
+    };
 
 let coursjusReducer = (state = stateInit, action = {}) => {
     const { userCJ, msg, userMenu } = state;
@@ -73,7 +73,7 @@ let coursjusReducer = (state = stateInit, action = {}) => {
 
         case INSERT_BIASSE:
             // creer une nouvelle biasse un nouveau marché
-            fetch('http://localhost:8080/insertBiasse', {
+            fetch('http://localhost:8080/insertbiasse', {
                 method: 'POST',
                 body: JSON.stringify(action.payload.biasseFiche),    
                 headers: {
@@ -83,12 +83,14 @@ let coursjusReducer = (state = stateInit, action = {}) => {
                 })
                 .then(res => res.json())
                 .catch(err => console.error(err));
-            return state;
-                    
+                return { ...state,
+                    msg:"Biasse ajoutée"
+                    }
+                        
 
         case UPDATE_BIASSE:
             // modifier une biasse un marché
-                fetch('http://localhost:8080/updateBiasse', {
+                fetch('http://localhost:8080/updatebiasse', {
                 method: 'POST',
                 body: JSON.stringify(action.payload.biasseFiche),    
                 headers: {
@@ -99,12 +101,12 @@ let coursjusReducer = (state = stateInit, action = {}) => {
                 .then(res => res.json())
                 .catch(err => console.error(err));
             return { ...state,
-                msg:"utilisateur modifié"
+                msg:"Biasse modifiée"
                 }
                                                 
         case DELETE_BIASSE:
             // supprimer une biasse un marché
-                fetch('http://localhost:8080/deleteBiasse', {
+                fetch('http://localhost:8080/deletebiasse', {
                 method: 'POST',
                 body: JSON.stringify(action.payload.biasseFiche),    
                 headers: {
@@ -115,9 +117,45 @@ let coursjusReducer = (state = stateInit, action = {}) => {
                 .then(res => res.json())
                 .catch(err => console.error(err));
             return { ...state,
-                msg:"utilisateur modifié"
+                msg:"Biasse Supprimée"
                 }
-                                                        
+
+        case INSERT_ARTICLE:
+            // creer un nouvel article
+            console.log(action.payload.actArticle);
+            fetch('http://localhost:8080/insertarticle', {
+                method: 'POST',
+                body: JSON.stringify(action.payload.actArticle),    
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    },
+                })
+                .then(res => res.json())
+                .catch(err => console.error(err));
+                return { ...state,
+                    msg:"Article ajouté"
+                    }
+                        
+
+        case UPDATE_ARTICLE:
+            // modifier un article
+                fetch('http://localhost:8080/updatearticle', {
+                method: 'POST',
+                body: JSON.stringify(action.payload.actArticle),    
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    },    
+            })
+                .then(res => res.json())
+                .catch(err => console.error(err));
+            return { ...state,
+                msg:"article modifié"
+                }
+                        
+
+
         default:
             return state;
     }

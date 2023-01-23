@@ -8,6 +8,7 @@ import UserView from './components/userFiche';
 import Footer from './components/footer';
 import Biasses from './components/biasses';
 import BiasseFiche from './components/biasseFiche';
+import Articles from './components/articles';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           <Route path="/adherents" element={<Adherents />} />
           <Route path="/biasses" element={<Biasses />} />
           <Route path="/biasses/:postId" element={<BiasseFiche />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/articles/:postId" element={<Articles />} />
           <Route
               path="*"
               element={

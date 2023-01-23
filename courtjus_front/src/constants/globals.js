@@ -25,8 +25,9 @@ export const USER_INIT = {
     "uCommission": false,
     "uProducteur": false,
     "uAdmin": false,
-    "uDateCreat": new Date()
-}
+    "uDateCreat": new Date(),
+    "uDateLastConnect": new Date(),
+};
 
 export const BIASSE_INIT = {
     "_id": {},
@@ -36,5 +37,20 @@ export const BIASSE_INIT = {
     "bDate": new Date(),
     "bDateCdeIni": new Date(),
     "bDateCdeEnd": new Date(),
-    "bParticipants":[] 
-}
+    "bParticipants":[],
+    "bActif": false 
+};
+
+export const ARTICLE_INIT = {
+    "_id": {},
+    "aNum": 0,
+    "aNumProducteur": 0,
+    "aLibelle": "Nouvel Article",
+    "aMesure": "kg",
+    "aUnitNb": 0,
+    "aUnitPrice": 0,
+    "aCalculable": false, // non utilisé en V1
+    "aPrecision": "",
+    "aEnVente": true, // non utilisé en V1
+    "aComment": ""
+};

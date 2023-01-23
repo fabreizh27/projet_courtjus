@@ -15,11 +15,16 @@ let usersSchema = mongoose.Schema({
     uNom: String,
     uPrenom: String,
     uMail: String,
+    uMailPro: String,
     uPass: String,
     uTel: String,
     uInfosComp: String,
     uStructure: String,
     uProduction: String,
+    uVente: String,
+    uAdr_L1: String,
+    uAdr_L2: String,
+    uAdr_L3: String,
     uAdr_CP: String,
     uAdr_Ville: String,
     uReferents: String,
@@ -57,7 +62,7 @@ let usersSchema = mongoose.Schema({
     bDateCdeIni: Date,
     bDateCdeEnd: Date,
     bParticipants:[], 
-
+    bActif:Boolean
   });
   export let BiassesList = mongoose.model("cjbiasses", biassesSchema);
 

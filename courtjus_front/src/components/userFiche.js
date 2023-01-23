@@ -11,7 +11,7 @@ import { updateUser, insertUser } from '../actions/actions-types';
 const UserView = (props) =>{
 
     const {userCJ, userMenu} = useSelector(state => state);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
 	const { postId } = useParams();
     const [userFiche, setUserFiche] = useState([]);
@@ -24,7 +24,11 @@ const UserView = (props) =>{
         fetch(`${URL_COURTJUS_BACK}/users/${userN}`)
         .then(response => response.json())
         .then(res => {
-            if (res===null) {setUserFiche(USER_INIT);} else {setUserFiche(res);}
+            if (res===null) {
+                setUserFiche(USER_INIT);
+            } else {
+                setUserFiche(res);
+            }
         });
     }, []);
 
@@ -68,7 +72,7 @@ const UserView = (props) =>{
     const handleChangePass = (event) => {
         const {name, value} = event.target;
         setUserPass(oldUser => { return {...userPass,[name]: value}; });
-        setUserFiche(oldUser => { return {...userFiche, uMsg : ""}; });
+        setUserFiche(oldUser => { return {...userFiche,uPass: value, uMsg : ""}; });
         event.preventDefault();
     };
 
@@ -81,10 +85,10 @@ const UserView = (props) =>{
     const handleSubmit = (event) => {
         event.preventDefault();
         let errMsg="";
-        if (userPass.verifPass.length<8) {
+        if ((userPass.verifPass.length>0 && userPass.verifPass.length<8) || userFiche.uPass.length<8) {
             errMsg="Le mot de passe doit avoir plus de 8 caracteres !";
         };
-        if (userPass.verifPass!=userPass.verifPass2) {
+        if (userPass.verifPass!==userPass.verifPass2) {
             errMsg="Les deux mots de passe ne sont pas identiques !";
         };
         if (userFiche.uNom.length<3) {
@@ -103,7 +107,7 @@ const UserView = (props) =>{
         .then(response => response.json())
         .then(res => {
             if (res!=null) {
-                if (res[0].nb>0 && res[0]._id.uNum!=userFiche.uNum) {
+                if (res[0].nb>0 && res[0]._id.uNum!==userFiche.uNum) {
                     // si l'adresse existe déjà et que n'est pas la meme fiche utilisateur
                     errMsg="Adresse mail déjà existante !"
                     setUserFiche(oldUser => { return {...userFiche,uMsg : errMsg}; });
@@ -154,15 +158,15 @@ const UserView = (props) =>{
                                     <p><label htmlFor="uMail">Mail</label> <input disabled={adminSecu} className="input-default" type="email" name="uMail" id="uMail" value={userFiche.uMail} required onChange={handleChange} /></p>
                                     <p><label htmlFor="uTel">Téléphone</label> <input className="input-default" type="text" name="uTel" id="uTel" value={userFiche.uTel} required onChange={handleChange} /></p>
                                 </fieldset>
-                                <a className="btn-detail" href="#" aria-label="Detail producteur" title="Detail producteur"><img src="/img/double_arrow_D.png"/></a>	
+                                <a className="btn-detail" href="#" aria-label="Detail producteur" title="Detail producteur"><img src="/img/double_arrow_D.png" alt="voir plus"/></a>	
 
                             </article>
                             <article className="section-prods-infos form-fiche">
                                 <fieldset disabled={persoSecu}>
                                     <legend>Securité</legend>
                                     <p>
-                                        <label htmlFor="uPass">Mot de Passe</label> <input className="input-default" type="password" name="verifPass" id="verifPass" value={userPass.verifPass} required onChange={handleChangePass} /> 
-                                        <label htmlFor="uPass2"> 2nde saisie</label> <input className="input-default" type="password" name="verifPass2" id="verifPass2" value={userPass.verifPass2} required onChange={handleChangePass} />
+                                        <label htmlFor="uPass">Mot de Passe</label> <input className="input-default" type="password" maxLength="18" name="verifPass" id="verifPass" value={userPass.verifPass} onChange={handleChangePass} /> 
+                                        <label htmlFor="uPass2"> 2nde saisie</label> <input className="input-default" type="password" name="verifPass2" id="verifPass2" value={userPass.verifPass2} onChange={handleChangePass} />
                                     </p>
                                 </fieldset>
                                 <fieldset disabled={adminSecu}>

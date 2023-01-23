@@ -6,13 +6,13 @@ import {useEffect, useState} from 'react';
 import {useSelector, useDispatch} from "react-redux"
 import { URL_COURTJUS_BACK } from '../constants/sources.js';
 import { BIASSE_INIT } from '../constants/globals';
-import { updateBiasse, insertBiasse } from '../actions/actions-types';
+import { updateBiasse, insertBiasse, deleteBiasse } from '../actions/actions-types';
 import Select from "react-select";
 
 const BiasseView = (props) =>{
 
     const {userCJ, userMenu} = useSelector(state => state);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
 	const { postId } = useParams();
     const [biasseFiche, setBiasseFiche] = useState([]);
@@ -21,7 +21,7 @@ const BiasseView = (props) =>{
 
 
     useEffect(() => {
-        const list =[]
+        const list =[{ value: 0, label: "* Tous les producteurs *" }];
         fetch(`${URL_COURTJUS_BACK}/producteurs`)
           .then(response => response.json())
           .then(res => {
@@ -67,26 +67,41 @@ const BiasseView = (props) =>{
 
     const handleDownCB = (event) => {
         const {name, value} = event.target;
-        let newValue=false
-        value==="false" ? newValue=true : newValue=false
+        let newValue=false;
+        value==="true" ? newValue=false : newValue=true;
+        console.log(name,value,newValue);
         setBiasseFiche(oldFiche => { return {...biasseFiche,[name]: newValue}; });
         event.preventDefault();
     };
+
     const handleUpCB = (event) => {
         // obligé de faire les modif en deux fois car la case à cochée ne s'actualisait (visuellement) qu'a l'action suivante !
         setBiasseFiche(oldFiche => { return {...biasseFiche,bMsg : ""}; });
     };
+
     const handleChangeCB = (event) => {
         // fonction pour ne pas que react identifie une erreur
     };
 
     function handleSelect(data) {
-        setSelectedOptions(data);
-        const list=[]
-        data.forEach(element => {
-            list.push(element.value)
-        });
-        setBiasseFiche(oldFiche => { return {...biasseFiche,bParticipants: list}; });
+        const listB=[];
+        const listSO=[];
+        const tout = data.find(element => element.value === 0);
+        if (tout) {
+            producteurs.forEach(element => {
+                if (element.value>0) {
+                    listB.push(element.value);
+                    listSO.push({ value: element.value, label: element.label });
+                }
+            });
+            setSelectedOptions(listSO);
+        } else {
+            data.forEach(element => {
+                listB.push(element.value);
+            });
+            setSelectedOptions(data);
+        }
+        setBiasseFiche(oldFiche => { return {...biasseFiche,bParticipants: listB,bMsg : ""}; });
     };
     
     function checkDate(inputDate) {
@@ -94,6 +109,31 @@ const BiasseView = (props) =>{
         return re.test(inputDate);
     }
 
+    function handleClickDel(event) {
+        event.preventDefault();
+        let errMsg="";
+        if (window.confirm("Voulez-vous rellement supprimer cette Biasse ?")) {
+            errMsg="suppression validée";
+            dispatch(deleteBiasse({biasseFiche})) 
+            // errMsg="Informations mises à jour !"
+            setSelectedOptions([]);
+            setBiasseFiche(oldUser => { return {...biasseFiche,
+                _id: {},
+                bNum: 0,
+                bLibelle: "",
+                bComment: "",
+                bDate: "",
+                bDateCdeIni: "",
+                bDateCdeEnd: "",
+                bParticipants:[],                             
+                bMsg : errMsg}; });
+        } else {
+            errMsg="suppression annulée";
+            setBiasseFiche(oldUser => { return {...biasseFiche,bMsg : errMsg}; });
+        }
+        };
+
+    
     
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -115,14 +155,14 @@ const BiasseView = (props) =>{
         };
         if (biasseFiche.bNum===0) {
             // Ajout d'un utilisateur
-            dispatch(insertBiasse({biasseFiche}))
-            errMsg="Biasse Ajoutée !"
+            dispatch(insertBiasse({biasseFiche}));
+            errMsg="Biasse Ajoutée !";
             setBiasseFiche(oldUser => { return {...biasseFiche,bMsg : errMsg}; });
 
         } else {
             // Modification d'un utilisateur
-            dispatch(updateBiasse({biasseFiche})) 
-            errMsg="Informations mises à jour !"
+            dispatch(updateBiasse({biasseFiche}));
+            errMsg="Informations mises à jour !";
             setBiasseFiche(oldUser => { return {...biasseFiche,bMsg : errMsg}; });
         }
     };
@@ -139,7 +179,7 @@ const BiasseView = (props) =>{
                     { biasseFiche.bMsg && <section className="section-prods-err"><p>{biasseFiche.bMsg}</p></section> }
                     <section className="section-prods section-prods-form">
                         <form method="POST" id="formBiasse" encType="multipart/form-data" disabled={!userCJ.uAdmin} onSubmit={handleSubmit}>
-                            <img src="/img/farmer_market.png" alt="Biasse" className="float-prods"/>
+                            <img src="/img/farmer_market.png" alt="Biasse" className="float-prods" />
                             <article className="section-prods-fiche form-fiche">
                                 <fieldset disabled={!userCJ.uAdmin}>
                                     <legend>infos Biasse / marché <span className='span-light'>({biasseFiche.bNum})</span></legend>
@@ -161,7 +201,7 @@ const BiasseView = (props) =>{
                                     <div className="dropdown-container">
                                         <Select
                                         options={producteurs}
-                                        placeholder="Select color"
+                                        placeholder="Indentifiez les producteurs"
                                         value={selectedOptions}
                                         onChange={handleSelect}
                                         isSearchable={true}
@@ -180,7 +220,7 @@ const BiasseView = (props) =>{
                                 </fieldset>
                             </article>
                             <section className="nav-admin"><p className="section-prods-err">{biasseFiche.bMsg}</p></section>
-                            <section className="nav-admin"><p className="btn-detail"><img src="/img/delete.png"  alt="supprimer la biasse" /></p></section>
+                            <section className="nav-admin"><p className="btn-detail"><img src="/img/delete.png"  alt="supprimer la biasse" onClick={handleClickDel} /></p></section>
                         </form>
                     </section>
                     <div className="main-down"></div>

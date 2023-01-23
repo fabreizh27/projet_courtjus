@@ -151,35 +151,66 @@ app.post("/insertUser", (req, res) => {
 app.post("/updateUser", (req, res) => {
   // console.log("modification d'un utilisateur");  
   const userFiche=req.body
-  bcrypt.hash(userFiche.pass, 5, function(err, hash){
-    UsersList.findOneAndUpdate({uNum:userFiche.uNum}, {
-      "uNom": userFiche.uNom,
-      "uPrenom": userFiche.uPrenom,
-      "uMail": userFiche.uMail,
-      "uMailPro": userFiche.uMailPro,
-      "uPass": hash,
-      "uTel": userFiche.uTel,
-      "uInfosComp": userFiche.uInfosComp,
-      "uStructure": userFiche.uStructure,
-      "uProduction": userFiche.uProduction,
-      "uVente": userFiche.uVente,
-      "uAdr_L1": userFiche.uAdr_L1,
-      "uAdr_L2": userFiche.uAdr_L2,
-      "uAdr_L3": userFiche.uAdr_L3,
-      "uAdr_CP": userFiche.uAdr_CP,
-      "uAdr_Ville": userFiche.uAdr_Ville,
-      "uReferents": userFiche.uReferents,
-      "uPhotoProfil": "profil.png",
-      "uPhotos": "",
-      "uActif": userFiche.uActif,
-      "uAdherent": userFiche.uAdherent,
-      "uCommission": userFiche.uCommission,
-      "uProducteur": userFiche.uProducteur,
-      "uAdmin": userFiche.uAdmin
-    }, (err, userM) => {
-      if(err) return console.error(err)
+  console.log(userFiche);
+  if (userFiche.uPass.length<25) {
+    bcrypt.hash(userFiche.uPass, 5, function(err, hash){
+      UsersList.findOneAndUpdate({uNum:userFiche.uNum}, {
+        "uNom": userFiche.uNom,
+        "uPrenom": userFiche.uPrenom,
+        "uMail": userFiche.uMail,
+        "uMailPro": userFiche.uMailPro,
+        "uPass": hash,
+        "uTel": userFiche.uTel,
+        "uInfosComp": userFiche.uInfosComp,
+        "uStructure": userFiche.uStructure,
+        "uProduction": userFiche.uProduction,
+        "uVente": userFiche.uVente,
+        "uAdr_L1": userFiche.uAdr_L1,
+        "uAdr_L2": userFiche.uAdr_L2,
+        "uAdr_L3": userFiche.uAdr_L3,
+        "uAdr_CP": userFiche.uAdr_CP,
+        "uAdr_Ville": userFiche.uAdr_Ville,
+        "uReferents": userFiche.uReferents,
+        "uPhotoProfil": "profil.png",
+        "uPhotos": "",
+        "uActif": userFiche.uActif,
+        "uAdherent": userFiche.uAdherent,
+        "uCommission": userFiche.uCommission,
+        "uProducteur": userFiche.uProducteur,
+        "uAdmin": userFiche.uAdmin
+      }, (err, userM) => {
+        if(err) return console.error(err)
+      })
     })
-  })
+  } else {
+      UsersList.findOneAndUpdate({uNum:userFiche.uNum}, {
+        "uNom": userFiche.uNom,
+        "uPrenom": userFiche.uPrenom,
+        "uMail": userFiche.uMail,
+        "uMailPro": userFiche.uMailPro,
+        "uTel": userFiche.uTel,
+        "uInfosComp": userFiche.uInfosComp,
+        "uStructure": userFiche.uStructure,
+        "uProduction": userFiche.uProduction,
+        "uVente": userFiche.uVente,
+        "uAdr_L1": userFiche.uAdr_L1,
+        "uAdr_L2": userFiche.uAdr_L2,
+        "uAdr_L3": userFiche.uAdr_L3,
+        "uAdr_CP": userFiche.uAdr_CP,
+        "uAdr_Ville": userFiche.uAdr_Ville,
+        "uReferents": userFiche.uReferents,
+        "uPhotoProfil": "profil.png",
+        "uPhotos": "",
+        "uActif": userFiche.uActif,
+        "uAdherent": userFiche.uAdherent,
+        "uCommission": userFiche.uCommission,
+        "uProducteur": userFiche.uProducteur,
+        "uAdmin": userFiche.uAdmin
+      }, (err, userM) => {
+        if(err) return console.error(err)
+      })
+  }
+
 });
 
 
@@ -256,7 +287,12 @@ app.get("/articles/:postId", (req, res) => {
 app.get("/articlesenventes", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
   // console.log("liste de tous les articles en ventes");  
-  ArticlesList.find({aEnVente:true},(err, articles) => {
+  ArticlesList.find({ 
+    $and : [
+      {aEnVente : true},
+      {aUnitPrice : { $gte: 0 }},
+      {aUnitNb : { $gte: 0 }}
+  ]},(err, articles) => {
     if(err) return console.error(err)
     res.json(articles);
   });
@@ -266,11 +302,61 @@ app.get("/articlesenventes/:postId", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
   const { postId } = req.params;
   // console.log("liste des articles en vente du producteur " + postId);
-  ArticlesList.find({aNumProducteur:postId, aEnVente:true},(err, articles) => {
+  ArticlesList.find({ 
+    $and : [
+      {aNumProducteur:postId},
+      {aEnVente : true},
+      {aUnitPrice : { $gte: 0 }},
+      {aUnitNb : { $gte: 0 }}
+  ]},(err, articles) => {
     if(err) return console.error(err)
     res.json(articles);
   })
 });
+
+app.post("/updateArticle", (req, res) => {
+  // console.log("modification d'un article");  
+  const article=req.body
+      ArticlesList.findOneAndUpdate({aNum:article.aNum}, {
+        "aLibelle": article.aLibelle,
+        "aMesure": article.aMesure,
+        "aUnitNb": article.aUnitNb,
+        "aUnitPrice": article.aUnitPrice,
+        "aCalculable": false, // non utilisé en V1
+        "aPrecision": article.aPrecision,
+        "aEnVente": true, // non utilisé en V1
+        "aComment": article.aComment
+      }, (err, userM) => {
+        if(err) return console.error(err)
+      })
+});
+
+app.post("/insertarticle", (req, res) => {
+  console.log("creation d'un article");  
+  const article=req.body
+  console.log(article);
+  ArticlesList.find({}, { aNum: 1, _id: 0},(err, art) => {
+    if(err) return console.error(err)
+    let lastNum =0
+    art.length<1 ? lastNum =0 : lastNum =art[0].aNum;
+      let newArticle = new ArticlesList(
+            {
+              "aNum": lastNum+1,
+              "aNumProducteur": article.aNumProducteur,
+              "aLibelle": article.aLibelle,
+              "aMesure": article.aMesure,
+              "aUnitNb": article.aUnitNb,
+              "aUnitPrice": article.aUnitPrice,
+              "aCalculable": false, // non utilisé en V1
+              "aPrecision": article.aPrecision,
+              "aEnVente": true, // non utilisé en V1
+              "aComment": article.aComment
+            }
+          )
+          newArticle.save();
+  }).sort([['aNum', -1]]).limit(1)
+})
+
 
 // -------------------------------------------
 // ------   GESTION DES PAGES   -------
@@ -330,13 +416,13 @@ app.get("/biasse/:postId", (req, res) => {
   })
 });
 
-app.post("/insertBiasse", (req, res) => {
+app.post("/insertbiasse", (req, res) => {
   // console.log("creation d'une biasse d'un marché");  
   const biasseFiche=req.body
   BiassesList.find({}, { bNum: 1, _id: 0},(err, biasse) => {
     if(err) return console.error(err)
     let lastNum =0
-    biasse.length<1 ? lastNum =0 : lastNum =biasse[0].uNum;
+    biasse.length<1 ? lastNum =0 : lastNum =biasse[0].bNum;
       let newBiasse = new BiassesList(
             {
               "bNum": lastNum+1,
@@ -345,14 +431,15 @@ app.post("/insertBiasse", (req, res) => {
               "bDate": biasseFiche.bDate,
               "bDateCdeIni": biasseFiche.bDateCdeIni,
               "bDateCdeEnd": biasseFiche.bDateCdeEnd,
-              "bParticipants":biasseFiche.bParticipants
+              "bParticipants":biasseFiche.bParticipants,
+              "bActif":biasseFiche.bActif
             }
           )
       newBiasse.save();
   }).sort([['bNum', -1]]).limit(1)
 })
 
-app.post("/updateBiasse", (req, res) => {
+app.post("/updatebiasse", (req, res) => {
   // console.log("modification d'une biasse d'un marché");  
   const biasseFiche=req.body
     BiassesList.findOneAndUpdate({bNum:biasseFiche.bNum}, {
@@ -361,21 +448,20 @@ app.post("/updateBiasse", (req, res) => {
       "bDate": biasseFiche.bDate,
       "bDateCdeIni": biasseFiche.bDateCdeIni,
       "bDateCdeEnd": biasseFiche.bDateCdeEnd,
-      "bParticipants":biasseFiche.bParticipants
+      "bParticipants":biasseFiche.bParticipants,
+      "bActif":biasseFiche.bActif
     }, (err, biasseM) => {
       if(err) return console.error(err)
     })
 });
 
-app.post("/deleteBiasse", (req, res) => {
+app.post("/deletebiasse", (req, res) => {
   // console.log("suppression d'une biasse d'un marché");  
   const biasseFiche=req.body
-  bcrypt.hash(biasseFiche.pass, 5, function(err, hash){
-    BiassesList.deleteOne({uNum:biasseFiche.uNum
+    BiassesList.deleteOne({bNum:biasseFiche.bNum
     }, (err, biasseD) => {
       if(err) return console.error(err)
     })
-  })
 });
 
 

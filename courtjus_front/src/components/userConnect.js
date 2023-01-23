@@ -1,12 +1,12 @@
 import React from 'react';
 import {useState} from 'react';
-import {useSelector, useDispatch} from "react-redux"
+import {useSelector, useDispatch} from "react-redux";
 import { connectUser } from '../actions/actions-types';
 
 const UserConnect = (props) =>{
 
 	const {userCJ} = useSelector(state => state);
-	const dispatch = useDispatch()
+	const dispatch = useDispatch();
 
 	const [user, setUser] = useState({email:"", mdp :"", msg:""});
 
