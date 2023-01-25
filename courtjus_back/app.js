@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-import { UsersList, ArticlesList, PagesList, PagesElementsList, BiassesList } from "./data/structure.js";
+import { UsersList, ArticlesList, PagesList, PagesElementsList, BiassesList, CdeslignesList } from "./data/structure.js";
 import cors from "cors";
 import bcrypt from 'bcrypt';
 
@@ -17,7 +17,13 @@ app.get("/", (req, res) => {
   // console.log("infos page home");
   res.json(["Aucune donnée à la racine du projet"]);
 });
- 
+
+function findNum(idStr,index){
+  const idArray = idStr.split('_');
+  return Number(idArray[index]);
+};
+
+
 // -------------------------------------------
 // ------   GESTION DES UTILISATEURS   -------
 // -------------------------------------------
@@ -406,6 +412,16 @@ app.get("/biasses", (req, res) => {
   }).sort([['bDate', -1]]);
 });
 
+app.get("/biasseactive", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
+  // console.log("liste de toutes les biasses");  
+  BiassesList.findOne({bActif:true},(err, biasse) => {
+    if(err) return console.error(err)
+    res.json(biasse);
+  }).sort([['bDate', 1]]).limit(1);
+});
+
+
 app.get("/biasse/:postId", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
   const { postId } = req.params;
@@ -464,6 +480,49 @@ app.post("/deletebiasse", (req, res) => {
     })
 });
 
+
+// -------------------------------------------
+// ------   GESTION DES COMMANDES   -------
+// -------------------------------------------
+
+
+app.get("/cdeslignes/:postId", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
+  const { postId } = req.params;
+  const numCJ = findNum(postId,0)
+  const numBiasse = findNum(postId,1)
+  // console.log("les commandes de l'utilisateur " + numCJ +  " pour la biasse " + numBiasse);
+  CdeslignesList.find({cUser:numCJ, cBiasse:numBiasse},(err, cdes) => {
+    if(err) return console.error(err)
+    console.log(cdes);
+    res.json(cdes);
+  })
+});
+
+app.post("/updatecdeligne", (req, res) => {
+  console.log("ajout modification d'une ligne de commande");  
+  const commande=req.body
+  console.log(commande);
+  CdeslignesList.deleteMany({ // suppression de la ligne existante (si necessaire)
+    cBiasse: commande.cBiasse,
+    cUser: commande.cUser,
+    cArticle: commande.cArticle
+  },(err, art) => {
+    if(err) return console.error(err)
+      let newCdeLigne = new CdeslignesList( // création de la nouvelle ligne
+            {
+              "cBiasse": commande.cBiasse,
+              "cProducteur": commande.cProducteur,
+              "cUser": commande.cUser,
+              "cArticle": commande.cArticle,
+              "cNombre": commande.cNombre,
+              "cCommentaire": commande.cCommentaire,
+              "CArticleLib": commande.CArticleLib
+            }
+          )
+          newCdeLigne.save();
+  })
+})
 
 
 

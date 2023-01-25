@@ -474,6 +474,10 @@ form button{
     text-align: right;
 }
 
+.form-fiche-info{
+    text-align: left;
+}
+
 .form-fiche legend{
     font-size: 1.1rem;
     text-align: left;

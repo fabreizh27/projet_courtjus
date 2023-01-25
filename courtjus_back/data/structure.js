@@ -66,6 +66,18 @@ let usersSchema = mongoose.Schema({
   });
   export let BiassesList = mongoose.model("cjbiasses", biassesSchema);
 
+  
+  let cdeslignesSchema = mongoose.Schema({
+    cBiasse: Number,
+    cProducteur: Number,
+    cUser: Number,
+    cArticle: Number,
+    cNombre: Number,
+    cCommentaire: String,
+    CArticleLib: String
+  });
+  export let CdeslignesList = mongoose.model("cjcdeslignes", cdeslignesSchema);
+
   let pagesSchema = mongoose.Schema({
     pNum: Number,
     pParent: Number,

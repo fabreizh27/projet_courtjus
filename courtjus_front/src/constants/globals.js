@@ -32,11 +32,11 @@ export const USER_INIT = {
 export const BIASSE_INIT = {
     "_id": {},
     "bNum": 0,
-    "bLibelle": "",
+    "bLibelle": "Biasse à Créer",
     "bComment": "",
-    "bDate": new Date(),
-    "bDateCdeIni": new Date(),
-    "bDateCdeEnd": new Date(),
+    "bDate": "01/01/2020",
+    "bDateCdeIni": "01/01/2020",
+    "bDateCdeEnd": "01/01/2020",
     "bParticipants":[],
     "bActif": false 
 };
@@ -54,3 +54,14 @@ export const ARTICLE_INIT = {
     "aEnVente": true, // non utilisé en V1
     "aComment": ""
 };
+
+export const CDE_INIT = {
+    "_id": {},
+    "cProducteur": 0,
+    "cUser": 0,
+    "cArticle": 0,
+    "cNombre": 0,
+    "cCommentaire": "",
+    "CArticleLib": "",
+    "cBiasse": 0
+  };

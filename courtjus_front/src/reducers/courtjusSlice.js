@@ -1,4 +1,4 @@
-import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE, INSERT_ARTICLE, UPDATE_ARTICLE } from '../constants/actions';
+import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE, INSERT_ARTICLE, UPDATE_ARTICLE, UPDATE_CDESLIGNES } from '../constants/actions';
 import { USER_INIT } from '../constants/globals';
 
 let stateInit = {
@@ -154,7 +154,23 @@ let coursjusReducer = (state = stateInit, action = {}) => {
                 msg:"article modifié"
                 }
                         
-
+            case UPDATE_CDESLIGNES:
+                // modifier ou ajouter une precommande
+                    fetch('http://localhost:8080/updatecdeligne', {
+                    method: 'POST',
+                    body: JSON.stringify(action.payload.actArticle),    
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        },    
+                })
+                    .then(res => res.json())
+                    .catch(err => console.error(err));
+                return { ...state,
+                    msg:"article modifié"
+                    }
+                                
+        
 
         default:
             return state;

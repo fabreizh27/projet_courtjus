@@ -9,3 +9,4 @@ export const INSERT_BIASSE = 'INSERT_BIASSE'; // creer une nouvelle biasse / mar
 export const DELETE_BIASSE = 'DELETE_BIASSE'; // supprimer une Biasse
 export const INSERT_ARTICLE = 'INSERT_ARTICLE'; // ajouter un article a la vente
 export const UPDATE_ARTICLE = 'UPDATE_ARTICLE'; // modifier un article  a la vente
+export const UPDATE_CDESLIGNES = 'UPDATE_CDESLIGNES'; // modifier ou ajouter une pre-commande

@@ -1,4 +1,4 @@
-import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE, INSERT_ARTICLE, UPDATE_ARTICLE } from '../constants/actions';
+import { VIEW_MENU, HIDE_MENU, CONNECT_USER, DECONNECT_USER, INSERT_USER, UPDATE_USER, INSERT_BIASSE, UPDATE_BIASSE, DELETE_BIASSE, INSERT_ARTICLE, UPDATE_ARTICLE, UPDATE_CDESLIGNES } from '../constants/actions';
 
 // afficher menu utilisateur ou la demande de connection
 export const viewMenu = () => {
@@ -74,6 +74,13 @@ export const insertArticle = payload => {
 export const updateArticle = payload => {
     return {
         type: UPDATE_ARTICLE, payload
+    };
+};
+
+// modifier ou ajouter une pre-commande
+export const updateCdesLignes = payload => {
+    return {
+        type: UPDATE_CDESLIGNES, payload
     };
 };
 

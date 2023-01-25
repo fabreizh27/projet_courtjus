@@ -9,6 +9,7 @@ import Footer from './components/footer';
 import Biasses from './components/biasses';
 import BiasseFiche from './components/biasseFiche';
 import Articles from './components/articles';
+import JeCommande from './components/jecommande';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           <Route path="/biasses/:postId" element={<BiasseFiche />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/articles/:postId" element={<Articles />} />
+          <Route path="/jecommande" element={<JeCommande />} />
+          <Route path="/jecommande/:postId" element={<JeCommande />} />
           <Route
               path="*"
               element={
