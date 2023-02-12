@@ -38,14 +38,14 @@ const UserView = (props) =>{
 
 
     let adminSecu=true;
-    if (userCJ.uAdmin ) { adminSecu=false }
+    if (userCJ.uAdmin ) { adminSecu=false };
     let persoSecu=true;
-    if (userCJ.uAdmin || userCJ.uNum===userFiche.uNum ) { persoSecu=false }
+    if (userCJ.uAdmin || userCJ.uNum===userFiche.uNum ) { persoSecu=false };
     let prodSecu=true;
-    if (userCJ.uAdmin || userCJ.uProducteur ) { prodSecu=false }
+    if (userCJ.uAdmin || userCJ.uProducteur ) { prodSecu=false };
     let globalSecu=false;
-    if (userCJ.uAdmin===false && userFiche.uNum<1 ) { globalSecu=true }
-    if (userCJ.uNum<1) { globalSecu=true }
+    if (userCJ.uAdmin===false && userFiche.uNum<1 ) { globalSecu=true };
+    if (userCJ.uNum<1) { globalSecu=true };
 
     
     const handleChange = (event) => {
@@ -56,8 +56,8 @@ const UserView = (props) =>{
 
     const handleDownCB = (event) => {
         const {name, value} = event.target;
-        let newValue=false
-        value==="false" ? newValue=true : newValue=false
+        let newValue=false;
+        value==="false" ? newValue=true : newValue=false;
         setUserFiche(oldUser => { return {...userFiche,[name]: newValue}; });
         event.preventDefault();
     };

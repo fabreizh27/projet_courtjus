@@ -16,7 +16,7 @@ const BiassesProducteurs = (props) =>{
           .then(res => {
             res.forEach(producteur => {
                 const found = props.bParticipants.find(element => element === producteur.uNum);
-                if (found) {list.push(producteur.uStructure)}
+                if (found) {list.push(producteur.uStructure)};
 
             });
 

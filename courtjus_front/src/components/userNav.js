@@ -16,11 +16,11 @@ const UserNav = (props) =>{
     let secuArticles = false;
     if (userProducteur || userAdmin) {secuArticles=true};
 
-    const ViewPanier = `0_0_0_${userNum}_0___` // biasse active _ par adherents _ en mode liste _ utilisateur seul _ tous les producteurs _ pas de filtre text
-    let ViewCmd = `0_0_0` // biasse active _ par adherents _ en mode liste
-    if (!userAdmin && !userCommission && !userProducteur) {ViewCmd += `_${userNum}`} else {ViewCmd += `_0`} // ne voir que son propre panier si uniquement adherent
-    if (!userAdmin && !userCommission && userProducteur) {ViewCmd += `_${userNum}`} else {ViewCmd += `_0`} // ne voir que les commandes qui lui sont destinées si uniquement producteur
-    ViewCmd += `___` // pas de filtre text par defaut : _adherents _ producteurs _ articles
+    const ViewPanier = `0_0_0_${userNum}_0___`; // biasse active _ par adherents _ en mode liste _ utilisateur seul _ tous les producteurs _ pas de filtre text
+    let ViewCmd = `0_0_0`; // biasse active _ par adherents _ en mode liste
+    if (!userAdmin && !userCommission && !userProducteur) {ViewCmd += `_${userNum}`} else {ViewCmd += `_0`}; // ne voir que son propre panier si uniquement adherent
+    if (!userAdmin && !userCommission && userProducteur) {ViewCmd += `_${userNum}`} else {ViewCmd += `_0`}; // ne voir que les commandes qui lui sont destinées si uniquement producteur
+    ViewCmd += `___`; // pas de filtre text par defaut : _adherents _ producteurs _ articles
    
 	const dispatch = useDispatch();
 

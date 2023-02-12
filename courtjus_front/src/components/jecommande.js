@@ -26,7 +26,7 @@ const JeCommande = (props) =>{
           .then(res => {
             if (res===null) {
                 const newBiasse=BIASSE_INIT;
-                newBiasse.cmdOpen=false
+                newBiasse.cmdOpen=false;
                 setBiasse(newBiasse);
             } else {
                 const dateNow=new Date();
@@ -89,7 +89,7 @@ const JeCommande = (props) =>{
             resP.forEach(unit => {
               const found = participants.find(element => element === unit.uNum);
               if (found) {
-                  producteurs.push(unit)
+                  producteurs.push(unit);
               }
             });
             setProducteurs(producteurs);
@@ -163,7 +163,7 @@ const JeCommande = (props) =>{
     const handleSubmit = (event) => {
         event.preventDefault();
         const {id} = event.target;
-        const actArticle =articles[findIndex(id)]
+        const actArticle =articles[findIndex(id)];
         let errMsg="";
         if (isNaN(actArticle.cNombre)) {
             errMsg="le nombre n'est pas valide";
@@ -175,8 +175,8 @@ const JeCommande = (props) =>{
         };
         if (!errMsg) {
             // Ajout modification d'une ligne de commande
-            dispatch(updateCdesLignes({actArticle}))
-            errMsg="Pré-commande actualisée !"
+            dispatch(updateCdesLignes({actArticle}));
+            errMsg="Pré-commande actualisée !";
             const articlesChange=[...articles];
             articlesChange[findIndex(id)].aMsg=errMsg;
             setArticles(articlesChange);

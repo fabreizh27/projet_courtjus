@@ -11,7 +11,7 @@ import { insertArticle, updateArticle } from '../actions/actions-types';
 
 const Articles = (props) =>{
     const {userCJ, userMenu} = useSelector(state => state);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
     const [producteurs, setProducteurs] = useState([]);
     const [fiche, setFiche] = useState([]);
     const [selectedProduct, setSelectedProduct] = useState([]);
@@ -129,8 +129,8 @@ const Articles = (props) =>{
         if (!errMsg) {
             if (actArticle.aNum===0) {
                 // Ajout d'un article
-                dispatch(insertArticle({actArticle}))
-                errMsg="Article Ajoutée !"
+                dispatch(insertArticle({actArticle}));
+                errMsg="Article Ajoutée !";
                 setTimeout(() => {
                     fetch(`${URL_COURTJUS_BACK}/articles/${selectedProduct.uNum}`)
                     .then(response => response.json())

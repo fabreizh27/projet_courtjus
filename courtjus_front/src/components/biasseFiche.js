@@ -26,7 +26,7 @@ const BiasseView = (props) =>{
           .then(response => response.json())
           .then(res => {
             res.forEach(element => {
-                list.push({ value: element.uNum, label: element.uStructure })
+                list.push({ value: element.uNum, label: element.uStructure });
             });
             setProducteurs(list);
           });
@@ -50,7 +50,7 @@ const BiasseView = (props) =>{
                   .then(resP => {
                     resP.forEach(pElem => {
                         const found = res.bParticipants.find(element => element === pElem.uNum);
-                        if (found) {list.push({ value: pElem.uNum, label: pElem.uStructure })}
+                        if (found) {list.push({ value: pElem.uNum, label: pElem.uStructure })};
                     });
                     setSelectedOptions(list);
                   });

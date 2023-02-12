@@ -181,51 +181,51 @@ const LesCommandes = (props) =>{
             cdes[c].cProducteurName="";
             for (let p = 0; p < prods.length; p++) {
                 if (prods[p].uNum===prodNum) {
-                    cdes[c].cProducteurName=prods[p].uStructure + " (" +prods[p].uMailPro + ")"
+                    cdes[c].cProducteurName=prods[p].uStructure + " (" +prods[p].uMailPro + ")";
                 };
             };
             cdes[c].cUserName="";
             for (let a = 0; a < adhers.length; a++) {
                 if (adhers[a].uNum===adherNum) {
-                    cdes[c].cUserName=adhers[a].uNom + " " + adhers[a].uPrenom + " (" +adhers[a].uMail + ")"
+                    cdes[c].cUserName=adhers[a].uNom + " " + adhers[a].uPrenom + " (" +adhers[a].uMail + ")";
                 };
             };
-            if (cdes[c].cProducteurName==="" || cdes[c].cUserName==="") {cdes[c].supp=true} else {cdes[c].supp=false}
+            if (cdes[c].cProducteurName==="" || cdes[c].cUserName==="") {cdes[c].supp=true} else {cdes[c].supp=false};
         }
         const cdesFind = cdes.filter(cde => cde.supp===false);
 
         
-        let niv1Num = 0
-        let niv1Lib = ""
-        let niv2Num = 0
-        let niv2Lib = ""
-        let niv3Num = 0
-        let niv3Lib = ""
-        let niv3Val = 0
-        const cdesArray = []
+        let niv1Num = 0;
+        let niv1Lib = "";
+        let niv2Num = 0;
+        let niv2Lib = "";
+        let niv3Num = 0;
+        let niv3Lib = "";
+        let niv3Val = 0;
+        const cdesArray = [];
 
         for (let c = 0; c < cdesFind.length; c++) {
 
             if (filtre.filtreMonoAdherent>0) {
-                 niv1Num = cdesFind[c].cUser
-                 niv1Lib = cdesFind[c].cUserName
-                 niv2Num = cdesFind[c].cProducteur
-                 niv2Lib = cdesFind[c].cProducteurName
-                 niv3Num = cdesFind[c].cArticle
-                 niv3Lib = cdesFind[c].cArticleLib
+                 niv1Num = cdesFind[c].cUser;
+                 niv1Lib = cdesFind[c].cUserName;
+                 niv2Num = cdesFind[c].cProducteur;
+                 niv2Lib = cdesFind[c].cProducteurName;
+                 niv3Num = cdesFind[c].cArticle;
+                 niv3Lib = cdesFind[c].cArticleLib;
             } else {
-                 niv1Num = cdesFind[c].cProducteur
-                 niv1Lib = cdesFind[c].cProducteurName
+                 niv1Num = cdesFind[c].cProducteur;
+                 niv1Lib = cdesFind[c].cProducteurName;
                 if (filtre.filtreOrdre===0) {
-                     niv2Num = cdesFind[c].cUser
-                     niv2Lib = cdesFind[c].cUserName
-                     niv3Num = cdesFind[c].cArticle
-                     niv3Lib = cdesFind[c].cArticleLib    
+                     niv2Num = cdesFind[c].cUser;
+                     niv2Lib = cdesFind[c].cUserName;
+                     niv3Num = cdesFind[c].cArticle;
+                     niv3Lib = cdesFind[c].cArticleLib;    
                 } else {
-                     niv2Num = cdesFind[c].cArticle
-                     niv2Lib = cdesFind[c].cArticleLib    
-                     niv3Num = cdesFind[c].cUser
-                     niv3Lib = cdesFind[c].cUserName
+                     niv2Num = cdesFind[c].cArticle;
+                     niv2Lib = cdesFind[c].cArticleLib;    
+                     niv3Num = cdesFind[c].cUser;
+                     niv3Lib = cdesFind[c].cUserName;
                 }
             }
             niv3Val = cdesFind[c].cNombre
@@ -251,13 +251,12 @@ const LesCommandes = (props) =>{
         });
 
         for (let c = cdesFind.length-1; c >0; c--) {
-            if (cdesArray[c].niv1Lib === cdesArray[c-1].niv1Lib && cdesArray[c].niv2Lib === cdesArray[c-1].niv2Lib && cdesArray[c].niv3Lib === cdesArray[c-1].niv3Lib) {cdesArray[c].niv2Lib=""}
-            if (cdesArray[c].niv1Lib === cdesArray[c-1].niv1Lib && cdesArray[c].niv2Lib === cdesArray[c-1].niv2Lib) {cdesArray[c].niv2Lib=""}
-            if (cdesArray[c].niv1Lib === cdesArray[c-1].niv1Lib) {cdesArray[c].niv1Lib=""}
-        }
+            if (cdesArray[c].niv1Lib === cdesArray[c-1].niv1Lib && cdesArray[c].niv2Lib === cdesArray[c-1].niv2Lib && cdesArray[c].niv3Lib === cdesArray[c-1].niv3Lib) {cdesArray[c].niv2Lib=""};
+            if (cdesArray[c].niv1Lib === cdesArray[c-1].niv1Lib && cdesArray[c].niv2Lib === cdesArray[c-1].niv2Lib) {cdesArray[c].niv2Lib=""};
+            if (cdesArray[c].niv1Lib === cdesArray[c-1].niv1Lib) {cdesArray[c].niv1Lib=""};
+        };
 
-        setCdesFiltres(cdesArray)
-        console.log(cdesArray);
+        setCdesFiltres(cdesArray);
 
     };
     
