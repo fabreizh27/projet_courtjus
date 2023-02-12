@@ -10,6 +10,7 @@ import Biasses from './components/biasses';
 import BiasseFiche from './components/biasseFiche';
 import Articles from './components/articles';
 import JeCommande from './components/jecommande';
+import LesCommandes from './components/lesCommandes';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
           <Route path="/articles/:postId" element={<Articles />} />
           <Route path="/jecommande" element={<JeCommande />} />
           <Route path="/jecommande/:postId" element={<JeCommande />} />
+          <Route path="/mescommandes" element={<LesCommandes />} />
+          <Route path="/mescommandes/:postId" element={<LesCommandes />} />
+          <Route path="/lescommandes" element={<LesCommandes />} />
+          <Route path="/lescommandes/:postId" element={<LesCommandes />} />
           <Route
               path="*"
               element={

@@ -126,10 +126,7 @@ const Articles = (props) =>{
             articlesChange[findIndex(id)].aMsg=errMsg;
             setArticles(articlesChange); 
         };
-        if (errMsg) {
-            // enregistrement impossible
-            console.log("stop");
-        } else {
+        if (!errMsg) {
             if (actArticle.aNum===0) {
                 // Ajout d'un article
                 dispatch(insertArticle({actArticle}))
@@ -159,8 +156,8 @@ const Articles = (props) =>{
             {userMenu===true && <UserNav />}
             {userMenu===true && <UserConnect />}
             <section className="nav-admin">
-				<form method="POST" id="formFiltre" className='form-filtre'>
-                    <label htmlFor="filtre"><img src="img/search.png" alt="Rechercher" /></label>
+            <form method="POST" id="formFiltre">
+                    <label htmlFor="filtre"><img src="img/search.png" alt="Rechercher" className='img-filtre-mono' /></label>
 					<input type="text" name="filtre" id="filtre" value={filtre} onChange={handleChange} /> 
 				</form>	
             </section>

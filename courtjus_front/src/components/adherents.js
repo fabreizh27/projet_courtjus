@@ -41,10 +41,10 @@ const Adherents = (props) =>{
             {userMenu===true && <UserConnect />}
             {userCJ.uAdmin && <>
                 <section className="nav-admin">
-                    <form method="POST" id="formFiltre" className='form-filtre'>
-                        <label htmlFor="filtre"><img src="img/search.png" alt="Recherche" /></label>
-                        <input type="text" name="filtre" id="filtre" value={filtre} onChange={handleChange} />
-                    </form>	
+				<form method="POST" id="formFiltre" className='form-filtre'>
+                    <label htmlFor="filtre"><img src="img/search.png" alt="Rechercher" /></label>
+					<input type="text" name="filtre" id="filtre" value={filtre} onChange={handleChange} /> 
+				</form>	
                 </section>
                 <section className='main-title'><p><NavLink to={`/userfiche/0`} aria-label="Ajouter un utilisateur" title="Ajouter un utilisateur"><img src="/img/user_add_b.png" alt="Ajouter"/></NavLink> Adherents</p></section>
                 {adherents.map((q, i) =>

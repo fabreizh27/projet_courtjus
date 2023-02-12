@@ -1,0 +1,1861 @@
+[{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe42"
+  },
+  "uNum": 1,
+  "uNom": "ROLLAND",
+  "uPrenom": "Robert",
+  "uMail": "rolland.rob05@gmail.com",
+  "uMailPro": "",
+  "uTel": "06 30 57 55 95",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Rolland Robert",
+  "uProduction": "pommes cerises",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5110",
+  "uAdr_Ville": "Monetier-Allemont",
+  "uReferents": "Christine Kuentz",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1675621972226"
+    }
+  },
+  "uPass": "$2b$05$cYAjj5.3s3EOMK5pMJxXsuLQrMUW7hSoMR8EE550js4PNp96H5NgC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe43"
+  },
+  "uNum": 2,
+  "uNom": "EYME",
+  "uPrenom": "Julien",
+  "uMail": "christian.eyme0061@orange.fr",
+  "uMailPro": "",
+  "uTel": "06 79 79 21 09",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "GAEC Champ Parassac",
+  "uProduction": "porcs",
+  "uVente": "Vente à la ferme : contact par téléphone ou message",
+  "uAdr_L1": "Pralong ",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Embrun",
+  "uReferents": "Ginette Béthune et Jérémie Couthouis",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$P2X0hG0O6Bj89oNfD3RG1emGy937P39E2E7qyljo3Rzc2dXb9D3HS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe44"
+  },
+  "uNum": 3,
+  "uNom": "MOREL-JEAN",
+  "uPrenom": "Céline",
+  "uMail": "bullesdescimes@yahoo.fr",
+  "uMailPro": "bullesdescimes@yahoo.fr",
+  "uTel": "06 33 71 40 59",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Bulles des Cimes",
+  "uProduction": "savons",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5600",
+  "uAdr_Ville": "Eygliers",
+  "uReferents": "Claire-Marie et Michèle Le Pape",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$XTBHSZDEX.Sso8CwAkVlZul5iIfrJJLmejsMFsh0RLYPk4HJtWawa"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe45"
+  },
+  "uNum": 4,
+  "uNom": "ROMAN",
+  "uPrenom": "Emmanuel et Christelle",
+  "uMail": "emmanuel.roman@alsatis.net",
+  "uMailPro": "",
+  "uTel": "06 99 88 58 87",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Roman Emmanuel et Christelle",
+  "uProduction": "fromage chèvre",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Crévoux",
+  "uReferents": "Chantal Bonetti, Véronique Dubourg",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$DDmuaIDiBh.e6CGFZplOpO6ca9sb/Cr55Kcv.VhsGDDJUSXggFhs2"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe46"
+  },
+  "uNum": 5,
+  "uNom": "COUTHOUIS",
+  "uPrenom": "Jérémie",
+  "uMail": "lestang.maraichage@gmail.com",
+  "uMailPro": "lestang.maraichage@gmail.com",
+  "uTel": "06 19 33 20 85",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "GAEC Les jardin de l'Estang",
+  "uProduction": "Maraichers légumes cornichons",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Embrun",
+  "uReferents": "Christine Kuentz et Benoîte Rigoulet\nAnne-Marie Teraube",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$HgfG4AMXPjncpmoDaflUC.bH.LNJ13zjdIZjwa6z4QR65Fd.VBVzO"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe47"
+  },
+  "uNum": 6,
+  "uNom": "LEFEVRE",
+  "uPrenom": "Samuel",
+  "uMail": "provence.alpes.sauvage@gmail.com",
+  "uMailPro": "provence.alpes.sauvage@gmail.com",
+  "uTel": "06 34 46 88 65 ",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Provence Alpes Sauvage",
+  "uProduction": "Sève de bouleau",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "4140",
+  "uAdr_Ville": "SEYNE-LES-ALPES",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$UGdQL4qb5dVgTmZMGdnIC.1VAp1nsYa83RutVG7dUp1o7tDcELoCW"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe48"
+  },
+  "uNum": 7,
+  "uNom": "VANDEMOORTEELE",
+  "uPrenom": "Nicole",
+  "uMail": "nicole05.vande@gmail.com",
+  "uMailPro": "",
+  "uTel": "06 11 45 15 97",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$qhXOGvKvhGoBP4zrrWuQj.eDIdmyWkcxFKCjVUCaqa3LrROMY2cXS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe49"
+  },
+  "uNum": 8,
+  "uNom": "LOPEZ",
+  "uPrenom": "Yannick",
+  "uMail": "contact@jardin-essenciel.com",
+  "uMailPro": "contact@jardin-essenciel.com",
+  "uTel": "06 85 65 36 46",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Spiruline de l'Essen'Ciel",
+  "uProduction": "spiruline",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5230",
+  "uAdr_Ville": "Chorges",
+  "uReferents": "Raymond Davignon et ",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$bIQVaBKwGdScjDcf3.tYVOCxDqRrHX/vfqel8EHRd/Dfir2ertBnS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe4a"
+  },
+  "uNum": 9,
+  "uNom": "DAVIGNON",
+  "uPrenom": "Raymond",
+  "uMail": "r.davignon@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 12 62 20 46",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$WC7AE7zqpRYNWZLQt1snlOGdPSCsLkYpYsVUCBSffncd71lKE63ri"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe4b"
+  },
+  "uNum": 10,
+  "uNom": "ALBRAND",
+  "uPrenom": "Pascale",
+  "uMail": "albapas05@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 75 58 20 96",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "La ferme de Boscodon",
+  "uProduction": "veaux",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Crots",
+  "uReferents": "Benoîte Rigoulet et Odile Couthouis",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$7ieO9hKqpmeWV7p1ZcvICubLWZl45mUGSnWf2YRI.EgyvRK.sSDje"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe4c"
+  },
+  "uNum": 11,
+  "uNom": "DOU",
+  "uPrenom": "Marion",
+  "uMail": "m_dou@yahoo.fr",
+  "uMailPro": "",
+  "uTel": "06 68 41 09 99",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Butine",
+  "uProduction": "miel, gelee royale, pollen et propolis",
+  "uVente": "Produits à retirer à St Apo village ou atelier -labo de Chorges à la Grande ile : prendre RDV par tel ou sms",
+  "uAdr_L1": "Rue de la fontaine",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5160",
+  "uAdr_Ville": "Saint Apollinaire",
+  "uReferents": "Marchet Sophie et Sandrine Esperon",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$JDjSN2JYOIKXL4xrtCT4C.mn2VPOgXugVhGX45YEnR.XrvfGg3bGW"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe4d"
+  },
+  "uNum": 12,
+  "uNom": "JUNIQUE",
+  "uPrenom": "Isabelle",
+  "uMail": "isabellejunique06@gmail.com",
+  "uMailPro": "",
+  "uTel": "06 18 09 29 11",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$chrNVM/eTwRsq/T7eRFZAOyuq6b9gPSDKS7yt4tcnv2gDWoy3qKeC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe4e"
+  },
+  "uNum": 13,
+  "uNom": "CIZERON",
+  "uPrenom": "Estelle",
+  "uMail": "pepiniere.verts.tiges@gmail.com",
+  "uMailPro": "pepiniere.verts.tiges@gmail.com",
+  "uTel": "06 44 05 65 47",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Verts Tiges",
+  "uProduction": "plants légumes et autres",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Saint Sauveur",
+  "uReferents": "Odile Couthouis, Benoîte Rigoulet et Claire Souffront",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$8k0uisF2WXORcQmn0VME3.VX5CezyyXl7ge6.GwGatAYYVXfge2dC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe4f"
+  },
+  "uNum": 14,
+  "uNom": "DAUBERT",
+  "uPrenom": "Jean-Jacques",
+  "uMail": "jjdaubert@wanadoo.fr",
+  "uMailPro": "",
+  "uTel": "06 83 09 36 77",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Daubert Jean-Jacques",
+  "uProduction": "miel",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5380",
+  "uAdr_Ville": "Chateauroux les Alpes",
+  "uReferents": "Yves Martin et Christine Kuentz",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$4gMwfPTldhMrfHHKtbtE8OiX5IDilseco3Qg36iGfZUAoMCkvQ3Rq"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe50"
+  },
+  "uNum": 15,
+  "uNom": "VIGNAUD",
+  "uPrenom": "Magali",
+  "uMail": "magali271299@hotmail.com",
+  "uMailPro": "",
+  "uTel": "06 63 55 47 10",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Vins Costebelle",
+  "uProduction": "vins naturels",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5300",
+  "uAdr_Ville": "Upaix",
+  "uReferents": "Yves Martin et Raymond Davignon ",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$F9tIhzNmAkOzGe.SytW2ze2Zq921Gi/gL1TkLZuPwbHEs.S2Bd3NS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe51"
+  },
+  "uNum": 16,
+  "uNom": "COUTHOUIS",
+  "uPrenom": "Odile",
+  "uMail": "odilecouthouis@orange.fr",
+  "uMailPro": "",
+  "uTel": "06 89 99 86 77",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$eljStT0pVGxOTf6RP1pBnOvk/o2EdNw2cmbWQ5pOm6SZvwW9Ma5mC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe52"
+  },
+  "uNum": 17,
+  "uNom": "SABATIER",
+  "uPrenom": "Isabelle",
+  "uMail": "leselixrirsdisabellerange.fr",
+  "uMailPro": "leselixrirsdisabellerange.fr",
+  "uTel": "06 81 50 22 19",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Elixirs d'Isabelle",
+  "uProduction": "liqueurs",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5310",
+  "uAdr_Ville": "FREISSINIERES",
+  "uReferents": "Odile Couthouis et Claire Souffront",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$Q1TDYjILcjYLFfu9o2BL4eBuYhEW/9b.CsiFX2dUu026TNEVBgXCi"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe53"
+  },
+  "uNum": 18,
+  "uNom": "MARTIN",
+  "uPrenom": "Yves",
+  "uMail": "m.ymartin@free.fr",
+  "uMailPro": "",
+  "uTel": "06 88 95 34 83",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": true,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$EWFge1Oh27qBJJWuc7I1XueBLzJrAB2ld9KcYLfHMuIxP17iqljU."
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe54"
+  },
+  "uNum": 19,
+  "uNom": "ROCHE",
+  "uPrenom": "Brigitte",
+  "uMail": "brigitte.roche2@wanadoo.fr",
+  "uMailPro": "",
+  "uTel": "07 83 57 40 27",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$ZntcG6HLGLjUfkNBoY14yenTxEHVaBIFvLPD6BgO0hNb3bDLAq8K."
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe55"
+  },
+  "uNum": 20,
+  "uNom": "MEISSIMILY",
+  "uPrenom": "Martine",
+  "uMail": "labastide5@wanadoo.fr",
+  "uMailPro": "labastide5@wanadoo.fr",
+  "uTel": "06 74 04 71 64",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Ferme Agricoulis",
+  "uProduction": "châtaignes et autres",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "Cévennes",
+  "uReferents": "Ginette Béthune",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$EWFge1Oh27qBJJWuc7I1XueBLzJrAB2ld9KcYLfHMuIxP17iqljU."
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe56"
+  },
+  "uNum": 21,
+  "uNom": "BONETTI",
+  "uPrenom": "Chantal",
+  "uMail": "chantal.bonetti@hotmail.fr",
+  "uMailPro": "endirectdemonjardin@gmail.com",
+  "uTel": "06 42 42 14 23",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "En direct de mon Jardin",
+  "uProduction": "légumes",
+  "uVente": "Boutique ouverte les jours du marché d’Embrun, le mercredi et le samedi matin et la veille du marché pour livraison de paniers précommandés. Commande de paniers : s'inscrire en envoyant un mail à endirectdemonjardin@gmail.com",
+  "uAdr_L1": "8 rue du Théâtre",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Embrun",
+  "uReferents": "Anne-Marie Théraube et Céline Soula",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$ouBOVaJih0DhxhDarHxcp.t4vdtvpHivYmN66Oe1pEHiWnHl.LHxG"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe57"
+  },
+  "uNum": 22,
+  "uNom": "RIGOULET",
+  "uPrenom": "Benoite",
+  "uMail": "rigoulet.g@orange.fr",
+  "uMailPro": "",
+  "uTel": "06 78 36 23 55",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$KkPl/lPMAekY5hU2/fKDWeUVHTyQ4IjwJjZc8v7SWZFOxLDhav.gq"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe58"
+  },
+  "uNum": 23,
+  "uNom": "KUENTZ",
+  "uPrenom": "Christine",
+  "uMail": "christinekuentz02@gmail.com",
+  "uMailPro": "",
+  "uTel": "07 86 51 58 85",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$884oDZQa6RqtA.NBZN/eEuudKFC9pgpKUWt5ElQCkIrliLES5fKyC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe59"
+  },
+  "uNum": 24,
+  "uNom": "DUBOURG",
+  "uPrenom": "Véronique",
+  "uMail": "veronique.linaresdubourg@wanadoo.fr",
+  "uMailPro": "",
+  "uTel": "04 92 43 56 27",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$Z7yCilyfslc.8FaUJL2iDeV0WjHKFEvrZInJCrBVQirEYeCB5mGAC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe5a"
+  },
+  "uNum": 25,
+  "uNom": "COUTHOUIS",
+  "uPrenom": "Jérémie",
+  "uMail": "jeremiecout@yahoo.fr",
+  "uMailPro": "",
+  "uTel": "06 19 33 20 85",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$3ae6DUePcyEcjniTWHYIE.PjkDXGhbjthaJjVdBgzlYQbxHr7dKyK"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe5b"
+  },
+  "uNum": 26,
+  "uNom": "SOULA",
+  "uPrenom": "Céline",
+  "uMail": "celine_soula@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 25 52 65 85",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Les plantes d’Anastabote",
+  "uProduction": "plantes aromatiques",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Crots",
+  "uReferents": "Nicole Vandemoorteele et Chantal Bonetti",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$jXnYHITUBXqJP7JL8oBthe7TiJX1M3OgkI71SXgKtoKAL9gcf9mDS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe5c"
+  },
+  "uNum": 27,
+  "uNom": "SOULA",
+  "uPrenom": "Céline",
+  "uMail": "celine_soula@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 25 52 65 85",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$YrMGIfYXteUBlYs.A8IoJuYOgSpt0TwCNH0jdf6Js6XuwV.0DXANa"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe5d"
+  },
+  "uNum": 28,
+  "uNom": "GIBELIN",
+  "uPrenom": "Magali",
+  "uMail": "petitsfruits05@gmail.com",
+  "uMailPro": "petitsfruits05@gmail.com",
+  "uTel": "06 79 37 36 10",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Petits fruits",
+  "uProduction": "Fruits rouges",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5230",
+  "uAdr_Ville": "La Batie Neuve",
+  "uReferents": "Yves Martin et Anne Marie Théraube",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$fSCdMLUhYkbqnxYkcrwuGOZ8qO2ozAPa7TvewWBxVV.z0OwonqIh2"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe5e"
+  },
+  "uNum": 29,
+  "uNom": "COUSIN",
+  "uPrenom": "Marty",
+  "uMail": "martycousin@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 70 68 98 65",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Cousin Marty",
+  "uProduction": "Noix et huile de noix",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5150",
+  "uAdr_Ville": "Bruis",
+  "uReferents": "Claire Souffront et Odile Couthouis",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$wmVCgBxSOfOeQBtXVylMEucBhsApIAv3McPVvw9lWi5/jjJgsyHoa"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe5f"
+  },
+  "uNum": 30,
+  "uNom": "BONNET",
+  "uPrenom": "Isabelle",
+  "uMail": "isabelle06.b@laposte.net",
+  "uMailPro": "",
+  "uTel": "06 85 16 59 73",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Le Safran du Lac",
+  "uProduction": "Safran",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Embrun",
+  "uReferents": "Ginette Béthune et Nicole Vandemoorteele",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$O4dlbDCz72eEOuNZYdrtie3hPQ01EqMpOYiY/eXfcobXlPeUGN3dm"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe60"
+  },
+  "uNum": 31,
+  "uNom": "CAZOLRIA",
+  "uPrenom": "Aulde",
+  "uMail": "contact@baratipain.fr",
+  "uMailPro": "contact@baratipain.fr",
+  "uTel": "06 64 17 27 42",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Barati’Pain",
+  "uProduction": "Pain",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Baratier",
+  "uReferents": "Odile Couthouis et Sophie Marchet",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$OfT7xqFOOs1I.3GEUymD1uXme8pGR9dHWHqpmoCzxPlHmayHy5igC"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe61"
+  },
+  "uNum": 32,
+  "uNom": "GLEIZE",
+  "uPrenom": "Franck",
+  "uMail": "frankgleize@gmail.com",
+  "uMailPro": "",
+  "uTel": "06 28 33 04 25",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "La Cuche",
+  "uProduction": "bières",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5160",
+  "uAdr_Ville": "Saint Apollinaire",
+  "uReferents": "Marchet Sophie et Brigitte Roche",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$0yP6dBMKpZglSUq/m/vrQO/Zkxj3lIoC8h67LlyEFiC4jjX9xmS2O"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe63"
+  },
+  "uNum": 34,
+  "uNom": "MARCHET",
+  "uPrenom": "Sophie",
+  "uMail": "sophiemarchet@hotmail.com",
+  "uMailPro": "",
+  "uTel": "06 60 44 27 05",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$DCWFZxc0L58FnXQQKAmKu.WuXrCB1cREn0X2Ss4ttx9Xb.WoMUdb6"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe64"
+  },
+  "uNum": 35,
+  "uNom": "BILOCQ",
+  "uPrenom": "Philippe",
+  "uMail": "philippebilocq@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 64 31 54 35",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Bilocq Philippe",
+  "uProduction": "pommes,vin…",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5110",
+  "uAdr_Ville": "La Saulce",
+  "uReferents": "Ginette Béthune - Sophie Marchet",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$UGulqNKE/.Cd9V0yhCxEqu/YtOWS/vMRpQCEUL68RyvtGcZUkh80S"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe65"
+  },
+  "uNum": 36,
+  "uNom": "TERAUBE",
+  "uPrenom": "Anne-Marie",
+  "uMail": "anne.teraube@orange.fr",
+  "uMailPro": "",
+  "uTel": "06 32 72 22 59",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$2P35BinK9.57DmTKZBgZYu/NXPwcLsy7HbvpLohi/4l3nPD15QGwu"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe66"
+  },
+  "uNum": 37,
+  "uNom": "LAUGIER",
+  "uPrenom": "Xavier",
+  "uMail": "loupinchoun05@gmail.com",
+  "uMailPro": "loupinchoun05@gmail.com",
+  "uTel": "06 48 75 92 99",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Lou Pinchoun",
+  "uProduction": "produits à base de chanvre",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Crévoux",
+  "uReferents": "Odile et Jérémie Couthouis",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$hLyYqZSA3cTntPfyoB60teBXRoAJXDmPPx891QF4mHKjT7l5SZ1MS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe67"
+  },
+  "uNum": 38,
+  "uNom": "ALLEC",
+  "uPrenom": "Rémi",
+  "uMail": "remiallec@gmail.com",
+  "uMailPro": "",
+  "uTel": "06 20 34 03 41",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Allec Rémi",
+  "uProduction": "vaches et veau",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Puy Saint Eusèbe",
+  "uReferents": "Benoîte et Benoît Rigoulet",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$5AwS286lvS5dF87gCqImq.725hFwkzlPBTRQFdR8aQW7mUZUdq.NS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe68"
+  },
+  "uNum": 39,
+  "uNom": "LEPREVOST",
+  "uPrenom": "Marie",
+  "uMail": "m.leprevost@orange.fr ",
+  "uMailPro": "",
+  "uTel": "06 80 13 15 28",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$0K09EW2S2Dhkk1YOOCUg5et.GedMzGdqACMQty6gUv50U1vfw4KQW"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe69"
+  },
+  "uNum": 40,
+  "uNom": "RENARD",
+  "uPrenom": "Élisabeth et Christian",
+  "uMail": "renard.elizabeth@gmail.com",
+  "uMailPro": "",
+  "uTel": "06 86 41 04 84",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Renard Élisabeth et Christian",
+  "uProduction": "huile olive et prod. Transfo",
+  "uVente": "",
+  "uAdr_L1": "vers buis les barronies",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "Beauvoisin",
+  "uReferents": "Teraube Anne-Marie",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$I30Z8dB0Qet9xnr5RySQUeudYa62JRjrEEfo7C3qw3pLJo0LbvNZK"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe6a"
+  },
+  "uNum": 41,
+  "uNom": "BERTRAND",
+  "uPrenom": "Annie, Allaric et Marc",
+  "uMail": "la.civadille@gmail.com",
+  "uMailPro": "la.civadille@gmail.com",
+  "uTel": "04 92 43 22 12",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Ferme de la civadille",
+  "uProduction": "fruits, jus, oeufs et farine",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5380",
+  "uAdr_Ville": "Chateauroux les Alpes",
+  "uReferents": "Marie Leprévost et Nadine Civallero",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$RopIMET0cXSWjWjO4M8GNuq64nBhrCvDeXSXbE9Wf9RPSUv1Walhi"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe6b"
+  },
+  "uNum": 42,
+  "uNom": "JOSS MOREAU",
+  "uPrenom": "Salomé",
+  "uMail": "samole@hotmail.fr",
+  "uMailPro": "",
+  "uTel": "06 26 80 85 53",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Perlimpinpains",
+  "uProduction": "pains boulangerie mobile",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Saint André d’Embrun",
+  "uReferents": "Michèle Le Pape",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$CE2ijqkfcmXutmNhJqGQr.iWh3ec/onZ7bDgyXrFQLbtXcAd6ArZ2"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe6c"
+  },
+  "uNum": 43,
+  "uNom": "PINEAU",
+  "uPrenom": "Adeline",
+  "uMail": "lherbesouslepied05@gmail.com",
+  "uMailPro": "lherbesouslepied05@gmail.com",
+  "uTel": "06 72 20 78 11",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "L’herbe sous le pied",
+  "uProduction": "Eaux florales, huiles essentielles",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Saint André d’Embrun",
+  "uReferents": "Christine Kuentz et Michèle Le Pape",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$AprZUeRlPlolD04Knb3dUOxooCye6v0AAL8UN3hAo23M/F6ShI/Aa"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe6d"
+  },
+  "uNum": 44,
+  "uNom": "BETHUNE",
+  "uPrenom": "Ginette",
+  "uMail": "ginettebethune@wanadoo.fr",
+  "uMailPro": "",
+  "uTel": "06 31 44 47 88",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$H6p99zpv67V2anT7Ht0oYuWJKygJrf4rZs/7WRJD6XYUd5FQaUnLi"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe6e"
+  },
+  "uNum": 45,
+  "uNom": "ROCHE",
+  "uPrenom": "Valérie et Olivier",
+  "uMail": "olivier.roche21@wanadoo.fr",
+  "uMailPro": "",
+  "uTel": "06 81 82 52 65",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "La ferme du bonheur",
+  "uProduction": "producteurs de viande bovine",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Saint André d’Embrun",
+  "uReferents": "Raymond Davignon et ",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$JWHbFW75lJl8ew0gBZ9jEetyYHW3s3Zfbl9JuGJc1epA6iUGOh3US"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe6f"
+  },
+  "uNum": 46,
+  "uNom": "SOUFFRONT",
+  "uPrenom": "Claire",
+  "uMail": "clairesouffront@yahoo.fr",
+  "uMailPro": "",
+  "uTel": "06 31 44 22 31",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": true,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$ac577lDXY3yvDbdboiCp1O1bRmD8SEis/BqGfnjvXKGeREH0DH33y"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe70"
+  },
+  "uNum": 47,
+  "uNom": "ROUX",
+  "uPrenom": "Audrey",
+  "uMail": "gaecdechampnoble@gmail.com",
+  "uMailPro": "gaecdechampnoble@gmail.com",
+  "uTel": "04 92 43 14 41",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "GAEC de champ noble",
+  "uProduction": "Volaille, agneau",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Baratier",
+  "uReferents": "Ginette Béthune et Chantal Bonetti",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$6A9rimQx.QdEvXKyhscJvem6moN8P.4EUx3X9ODRqhYwuj01TqfhS"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe71"
+  },
+  "uNum": 48,
+  "uNom": "LINARES",
+  "uPrenom": "Thibaut et Celina",
+  "uMail": "thibaut.linares@lilo.org",
+  "uMailPro": "",
+  "uTel": "06 45 41 98 08",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Ferme de Côtes Clavelles",
+  "uProduction": "légumes et œufs",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "5200",
+  "uAdr_Ville": "Puy Sanières",
+  "uReferents": "Yves Martin et ",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$.LGH3XhIibC9CA0VRYJ3eeeROXEk1oOxve4CWSSmq2/.MpMUHH26a"
+},{
+  "_id": {
+    "$oid": "63b57d62db040b20eadafe72"
+  },
+  "uNum": 49,
+  "uNom": "DUCRET",
+  "uPrenom": "Nicolas",
+  "uMail": "nico.ducret@gmail.com",
+  "uMailPro": "",
+  "uTel": "04 75 89 19 46",
+  "uInfosComp": "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere. Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.",
+  "uStructure": "Ducret Nicolas",
+  "uProduction": "châtaignes",
+  "uVente": "",
+  "uAdr_L1": "",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "",
+  "uAdr_Ville": "Ardeche",
+  "uReferents": "Michèle Le Pape et Chantal Bonetti",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": "",
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": true,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uDateLastConnect": {
+    "$date": {
+      "$numberLong": "1677676620000"
+    }
+  },
+  "uPass": "$2b$05$RZa5QepM5LtwvWTyqkXEu.I4HeDf5lh9sWQhKUu4YOnY7JoNiFw6K"
+},{
+  "_id": {
+    "$oid": "63c973b57d7389b84ef9bf2f"
+  },
+  "uNum": 50,
+  "uNom": "REYMOND",
+  "uPrenom": "Fabrice",
+  "uMail": "freymond27@gmail.com",
+  "uMailPro": "",
+  "uPass": "$2b$05$RhFVQp./sDqeQBCZuLuRu.Z3wSB/Hp1hPU/fzo1rIifsS.xM.x27W",
+  "uTel": "0661546821",
+  "uInfosComp": "",
+  "uStructure": "",
+  "uProduction": "",
+  "uVente": "",
+  "uAdr_L1": "58 chemin de la coste",
+  "uAdr_L2": "",
+  "uAdr_L3": "",
+  "uAdr_CP": "05160",
+  "uAdr_Ville": "REALLON",
+  "uReferents": "",
+  "uPhotoProfil": "profil.png",
+  "uPhotos": [
+    ""
+  ],
+  "uActif": true,
+  "uAdherent": true,
+  "uCommission": false,
+  "uProducteur": false,
+  "uAdmin": false,
+  "uDateCreat": {
+    "$date": {
+      "$numberLong": "1674146741201"
+    }
+  },
+  "__v": 0
+}]

@@ -47,6 +47,21 @@ app.get("/users/:postId", (req, res) => {
   })
 });
 
+app.get("/usersin/:postId", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
+  const { postId } = req.params;
+  const postIdArrayStr= postId.split(",")
+  const postIdArray= [0]
+  postIdArrayStr.forEach(element => {
+    postIdArray.push(Number(element))
+  });
+  // console.log("les utilisateurs du tableau " + postIdArray);
+  UsersList.find({uNum: {$in : postIdArray}},(err, user) => {
+    if(err) return console.error(err)
+    res.json(user);
+  })
+});
+
 app.get("/usersfiltre/:postId", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
   const { postId } = req.params;
@@ -157,7 +172,6 @@ app.post("/insertUser", (req, res) => {
 app.post("/updateUser", (req, res) => {
   // console.log("modification d'un utilisateur");  
   const userFiche=req.body
-  console.log(userFiche);
   if (userFiche.uPass.length<25) {
     bcrypt.hash(userFiche.uPass, 5, function(err, hash){
       UsersList.findOneAndUpdate({uNum:userFiche.uNum}, {
@@ -219,6 +233,9 @@ app.post("/updateUser", (req, res) => {
 
 });
 
+// -------------------------------------------
+// ------   GESTION DES PRODUCTEURS    -------
+// -------------------------------------------
 
 app.get("/producteurs", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
@@ -338,9 +355,8 @@ app.post("/updateArticle", (req, res) => {
 });
 
 app.post("/insertarticle", (req, res) => {
-  console.log("creation d'un article");  
+  // console.log("creation d'un article");  
   const article=req.body
-  console.log(article);
   ArticlesList.find({}, { aNum: 1, _id: 0},(err, art) => {
     if(err) return console.error(err)
     let lastNum =0
@@ -494,21 +510,30 @@ app.get("/cdeslignes/:postId", (req, res) => {
   // console.log("les commandes de l'utilisateur " + numCJ +  " pour la biasse " + numBiasse);
   CdeslignesList.find({cUser:numCJ, cBiasse:numBiasse},(err, cdes) => {
     if(err) return console.error(err)
-    console.log(cdes);
+    res.json(cdes);
+  })
+});
+
+app.get("/cdeslignesbiasse/:postId", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", SITE_COURTJUS);
+  const { postId } = req.params;
+  // console.log("les commandes pour la biasse " + postId);
+  CdeslignesList.find({cBiasse:postId},(err, cdes) => {
+    if(err) return console.error(err)
     res.json(cdes);
   })
 });
 
 app.post("/updatecdeligne", (req, res) => {
-  console.log("ajout modification d'une ligne de commande");  
+  // console.log("ajout modification d'une ligne de commande");  
   const commande=req.body
-  console.log(commande);
   CdeslignesList.deleteMany({ // suppression de la ligne existante (si necessaire)
     cBiasse: commande.cBiasse,
     cUser: commande.cUser,
     cArticle: commande.cArticle
   },(err, art) => {
     if(err) return console.error(err)
+      const articleLib = commande.aLibelle + " " + "en lot de " + commande.aUnitNb + "( " +commande.aMesure + " ) " +  " au prix de " + commande.aUnitPrice + " €"
       let newCdeLigne = new CdeslignesList( // création de la nouvelle ligne
             {
               "cBiasse": commande.cBiasse,
@@ -517,7 +542,7 @@ app.post("/updatecdeligne", (req, res) => {
               "cArticle": commande.cArticle,
               "cNombre": commande.cNombre,
               "cCommentaire": commande.cCommentaire,
-              "CArticleLib": commande.CArticleLib
+              "cArticleLib": articleLib
             }
           )
           newCdeLigne.save();

@@ -57,7 +57,7 @@ const BiasseView = (props) =>{
         
             }
         });
-    }, []);
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
     
     const handleChange = (event) => {
         const {name, value} = event.target;
@@ -69,7 +69,6 @@ const BiasseView = (props) =>{
         const {name, value} = event.target;
         let newValue=false;
         value==="true" ? newValue=false : newValue=true;
-        console.log(name,value,newValue);
         setBiasseFiche(oldFiche => { return {...biasseFiche,[name]: newValue}; });
         event.preventDefault();
     };
@@ -183,7 +182,6 @@ const BiasseView = (props) =>{
                             <article className="section-prods-fiche form-fiche">
                                 <fieldset disabled={!userCJ.uAdmin}>
                                     <legend>infos Biasse / marché <span className='span-light'>({biasseFiche.bNum})</span></legend>
-                                    <p><input type="hidden" name="bNum" id="bNum" value={biasseFiche.bNum}/></p>
                                     <p><label htmlFor="bLibelle">Nom</label> <input className="input-default" type="text" name="bLibelle" id="bLibelle" value={biasseFiche.bLibelle} required onChange={handleChange} /></p>
                                     <p><label htmlFor="bDate">Date</label> <input className="input-default" type="date" name="bDate" id="bDate" value={biasseFiche.bDate} required onChange={handleChange} /></p>
                                     <p><label htmlFor="bDateCdeIni">Debut des Cdes</label> <input className="input-default" type="date" name="bDateCdeIni" id="bDateCdeIni" value={biasseFiche.bDateCdeIni} required onChange={handleChange} /></p>

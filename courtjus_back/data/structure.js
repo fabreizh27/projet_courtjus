@@ -74,7 +74,7 @@ let usersSchema = mongoose.Schema({
     cArticle: Number,
     cNombre: Number,
     cCommentaire: String,
-    CArticleLib: String
+    cArticleLib: String
   });
   export let CdeslignesList = mongoose.model("cjcdeslignes", cdeslignesSchema);
 

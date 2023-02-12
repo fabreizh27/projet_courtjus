@@ -30,7 +30,7 @@ const UserView = (props) =>{
                 setUserFiche(res);
             }
         });
-    }, []);
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     useEffect(() => {
         setUserPass({verifPass:"",verifPass2:""});}
@@ -77,7 +77,7 @@ const UserView = (props) =>{
     };
 
     function checkEmail(email) {
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
     }
 
@@ -112,10 +112,7 @@ const UserView = (props) =>{
                     errMsg="Adresse mail déjà existante !"
                     setUserFiche(oldUser => { return {...userFiche,uMsg : errMsg}; });
                 } else {
-                    if (errMsg) {
-                        // enregistrement impossible
-                        console.log("stop");
-                    } else {
+                    if (!errMsg) {
                         if (userFiche.uNum===0) {
                             // Ajout d'un utilisateur
                             dispatch(insertUser({userFiche}))
@@ -148,17 +145,15 @@ const UserView = (props) =>{
                     { userFiche.uMsg && <section className="section-prods-err"><p>{userFiche.uMsg}</p></section> }
                     <section className="section-prods section-prods-form">
                         <form method="POST" id="formContact" encType="multipart/form-data" disabled={persoSecu} onSubmit={handleSubmit}>
-                             <img src={`/img/pictures/${userFiche.uPhotoProfil}`} alt="la photo du user" className="float-prods"/>
+                             <img src={`/img/pictures/${userFiche.uPhotoProfil}`} alt="la vue de l'adherent" className="float-prods"/>
                             <article className="section-prods-fiche form-fiche">
                                 <fieldset disabled={persoSecu}>
                                     <legend>infos contact <span className='span-light'>({userFiche.uNum})</span></legend>
-                                    <p><input type="hidden" name="uNum" id="uNum" value={userFiche.uNum}/></p>
                                     <p><label htmlFor="uNom">Nom</label> <input className="input-default" type="text" name="uNom" id="uNom" value={userFiche.uNom} required onChange={handleChange} /></p>
                                     <p><label htmlFor="uPrenom">Prénom</label> <input className="input-default" type="text" name="uPrenom" id="uPrenom" value={userFiche.uPrenom} required onChange={handleChange} /></p>
                                     <p><label htmlFor="uMail">Mail</label> <input disabled={adminSecu} className="input-default" type="email" name="uMail" id="uMail" value={userFiche.uMail} required onChange={handleChange} /></p>
                                     <p><label htmlFor="uTel">Téléphone</label> <input className="input-default" type="text" name="uTel" id="uTel" value={userFiche.uTel} required onChange={handleChange} /></p>
                                 </fieldset>
-                                <a className="btn-detail" href="#" aria-label="Detail producteur" title="Detail producteur"><img src="/img/double_arrow_D.png" alt="voir plus"/></a>	
 
                             </article>
                             <article className="section-prods-infos form-fiche">
@@ -197,7 +192,7 @@ const UserView = (props) =>{
                                 </fieldset>
                                 }
                                 {prodSecu===false && 
-                                <fieldset>
+                                <fieldset  disabled={persoSecu}>
                                     <legend>infos comp. producteur</legend>
                                     <p><label htmlFor="uStructure">Entreprise</label> <input className="input-dbl" type="text" name="uStructure" id="uStructure" value={userFiche.uStructure} onChange={handleChange} /></p>
                                     <p><label htmlFor="uProduction">Productions</label> <input className="input-dbl" type="text" name="uProduction" id="uProduction" value={userFiche.uProduction} onChange={handleChange} /></p>

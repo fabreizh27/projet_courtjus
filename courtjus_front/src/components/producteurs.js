@@ -39,7 +39,7 @@ const Producteurs = (props) =>{
             {userMenu===true && <UserConnect />}
             <section className="nav-admin">
 				<form method="POST" id="formFiltre" className='form-filtre'>
-                    <label htmlFor="filtre"><img src="img/search.png" alt="Rechercher"/></label>
+                    <label htmlFor="filtre"><img src="img/search.png" alt="Rechercher" /></label>
 					<input type="text" name="filtre" id="filtre" value={filtre} onChange={handleChange} /> 
 				</form>	
             </section>

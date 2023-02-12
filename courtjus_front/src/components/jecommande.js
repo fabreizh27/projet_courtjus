@@ -5,7 +5,7 @@ import {useEffect, useState} from 'react';
 import {useSelector, useDispatch} from "react-redux"
 import { URL_COURTJUS_BACK } from '../constants/sources.js';
 import { NavLink } from "react-router-dom";
-import { USER_INIT, ARTICLE_INIT,BIASSE_INIT, CDE_INIT } from '../constants/globals';
+import { USER_INIT, ARTICLE_INIT,BIASSE_INIT } from '../constants/globals';
 import { updateCdesLignes } from '../actions/actions-types';
 
 
@@ -59,7 +59,7 @@ const JeCommande = (props) =>{
       
             }
           });
-    }, []);
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
   
 
     useEffect(() => {
@@ -132,7 +132,7 @@ const JeCommande = (props) =>{
                     if (found) {
                         article.cid=found._id
                         article.cBiasse=found.cBiasse
-                        article.cProducteur=found.cProducteur
+                        article.cProducteur=Number(name)
                         article.cUser=found.cUser
                         article.cArticle=found.cArticle
                         article.cNombre=found.cNombre
@@ -141,7 +141,7 @@ const JeCommande = (props) =>{
                     } else {
                         article.cid={}
                         article.cBiasse=biasse.bNum
-                        article.cProducteur=selectedProduct.uNum
+                        article.cProducteur=Number(name)
                         article.cUser=userCJ.uNum
                         article.cArticle=article.aNum
                         article.cNombre=0
@@ -173,10 +173,7 @@ const JeCommande = (props) =>{
             articlesChange[findIndex(id)].aMsg=errMsg;
             setArticles(articlesChange); 
         };
-        if (errMsg) {
-            // enregistrement impossible
-            console.log("stop");
-        } else {
+        if (!errMsg) {
             // Ajout modification d'une ligne de commande
             dispatch(updateCdesLignes({actArticle}))
             errMsg="Pré-commande actualisée !"
@@ -245,18 +242,13 @@ const JeCommande = (props) =>{
 									<p className='form-fiche-info'>
                                     { q.aMsg && <section className="section-prods-err"><p>{q.aMsg}</p></section> }
                                         <span className='span-light'>({i}-{q.aNumProducteur}-{q.aNum})-{secuUpdate}-</span>
-                                        <input type="hidden" name="aIndex" id={`aIndex_${i}`} value={i} disabled={secuUpdate}/>
-                                        <input type="hidden" name="cBiasse" id={`cBiasse_${i}`} value={q.cBiasse} disabled={secuUpdate}/>
-                                        <input type="hidden" name="cProducteur" id={`cProducteur_${i}`} value={q.cProducteur} disabled={secuUpdate}/>
-                                        <input type="hidden" name="cUser" id={`cUser_${i}`} value={q.cUser} disabled={secuUpdate}/>
-                                        <input type="hidden" name="cArticle" id={`cArticle_${i}`} value={q.cArticle} disabled={secuUpdate}/>
                                         {q.aLibelle}
                                         {q.aUnitNb>1 && `en lot de : ${q.aUnitNb}`} {(q.aMesure!=="Unité" && q.aMesure!=="unité") && q.aMesure}   au prix de {q.aUnitPrice} €
                                     </p>
-                                    <p>    
+                                    <p className='form-fiche-info'>    
                                         {q.aPrecision}
 									</p>
-                                    <p>    
+                                    <p className='form-fiche-info'>    
                                         {q.aComment}
 									</p>
                                     <p>    

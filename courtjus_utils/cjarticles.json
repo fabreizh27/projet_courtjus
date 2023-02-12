@@ -1,0 +1,4439 @@
+[{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb3"
+  },
+  "aNum": 1,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Framboise",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb4"
+  },
+  "aNum": 2,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Framboise sans pépin",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb5"
+  },
+  "aNum": 3,
+  "aNumProducteur": 28,
+  "aLibelle": "carton 12 confitures/gelées au choix",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 49.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb6"
+  },
+  "aNum": 4,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Groseille",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb7"
+  },
+  "aNum": 5,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture Framboise / Groseille",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb8"
+  },
+  "aNum": 6,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Mûre",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffb9"
+  },
+  "aNum": 7,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Cassis",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffba"
+  },
+  "aNum": 8,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Framboise / Cassis",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffbb"
+  },
+  "aNum": 9,
+  "aNumProducteur": 28,
+  "aLibelle": "Gelée de Groseille",
+  "aMesure": "Gr",
+  "aUnitNb": 250,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffbc"
+  },
+  "aNum": 10,
+  "aNumProducteur": 28,
+  "aLibelle": "carton 12 confitures/gelées au choix",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 66,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffbd"
+  },
+  "aNum": 11,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Framboise",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffbe"
+  },
+  "aNum": 12,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Mûre",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffbf"
+  },
+  "aNum": 13,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Groseille",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc0"
+  },
+  "aNum": 14,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture Framboise /  grosseille",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc1"
+  },
+  "aNum": 15,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Cassis",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc2"
+  },
+  "aNum": 16,
+  "aNumProducteur": 28,
+  "aLibelle": "Confiture de Framboise / Cassis",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc3"
+  },
+  "aNum": 17,
+  "aNumProducteur": 28,
+  "aLibelle": "Gelée de Groseille",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc4"
+  },
+  "aNum": 18,
+  "aNumProducteur": 28,
+  "aLibelle": "Gelée de Framboise / Groseille",
+  "aMesure": "Gr",
+  "aUnitNb": 350,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc5"
+  },
+  "aNum": 19,
+  "aNumProducteur": 28,
+  "aLibelle": "Coulis de Framboise",
+  "aMesure": "Cl",
+  "aUnitNb": 25,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc6"
+  },
+  "aNum": 20,
+  "aNumProducteur": 28,
+  "aLibelle": "Sirop de Framboise",
+  "aMesure": "Cl",
+  "aUnitNb": 50,
+  "aUnitPrice": 7.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc7"
+  },
+  "aNum": 21,
+  "aNumProducteur": 28,
+  "aLibelle": "Vinaigre de Framboise",
+  "aMesure": "Cl",
+  "aUnitNb": 25,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc8"
+  },
+  "aNum": 22,
+  "aNumProducteur": 28,
+  "aLibelle": "Vinaigre de Cassis",
+  "aMesure": "Cl",
+  "aUnitNb": 25,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffc9"
+  },
+  "aNum": 23,
+  "aNumProducteur": 28,
+  "aLibelle": "Vinaigre de Groseille",
+  "aMesure": "Cl",
+  "aUnitNb": 25,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffca"
+  },
+  "aNum": 24,
+  "aNumProducteur": 29,
+  "aLibelle": "Noix Agri BIO",
+  "aMesure": "Kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 17.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffcb"
+  },
+  "aNum": 25,
+  "aNumProducteur": 29,
+  "aLibelle": "Huile de noix AB",
+  "aMesure": "Cl",
+  "aUnitNb": 25,
+  "aUnitPrice": 8,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffcc"
+  },
+  "aNum": 26,
+  "aNumProducteur": 29,
+  "aLibelle": "huile essentielle d'hélichryse AB",
+  "aMesure": "Ml",
+  "aUnitNb": 5,
+  "aUnitPrice": 12,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffcd"
+  },
+  "aNum": 27,
+  "aNumProducteur": 29,
+  "aLibelle": "huile essentielle d'hélichryse AB",
+  "aMesure": "Ml",
+  "aUnitNb": 10,
+  "aUnitPrice": 20,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffce"
+  },
+  "aNum": 28,
+  "aNumProducteur": 30,
+  "aLibelle": "Safran",
+  "aMesure": "Gr",
+  "aUnitNb": 0,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffcf"
+  },
+  "aNum": 29,
+  "aNumProducteur": 30,
+  "aLibelle": "Safran",
+  "aMesure": "Gr",
+  "aUnitNb": 0,
+  "aUnitPrice": 15,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd0"
+  },
+  "aNum": 30,
+  "aNumProducteur": 30,
+  "aLibelle": "Safran",
+  "aMesure": "Gr",
+  "aUnitNb": 1,
+  "aUnitPrice": 30,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd1"
+  },
+  "aNum": 31,
+  "aNumProducteur": 47,
+  "aLibelle": "1/2 Agneau",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 13.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "\nColis d'1/2 Agneau Bio\ndécoupé et mis sous vide (prix au kg)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd2"
+  },
+  "aNum": 32,
+  "aNumProducteur": 47,
+  "aLibelle": "Poularde Bio",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 19,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd3"
+  },
+  "aNum": 33,
+  "aNumProducteur": 47,
+  "aLibelle": "Vin de noix (75cl)",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 17,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd4"
+  },
+  "aNum": 34,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine à l'Echalote",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd5"
+  },
+  "aNum": 35,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine au Génépi",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd6"
+  },
+  "aNum": 36,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine au Genièvre",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd7"
+  },
+  "aNum": 37,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine aux Herbes",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd8"
+  },
+  "aNum": 38,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine au Poivre de Sichuan",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffd9"
+  },
+  "aNum": 39,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine au Thym",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffda"
+  },
+  "aNum": 40,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine à la Truffe 80g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffdb"
+  },
+  "aNum": 41,
+  "aNumProducteur": 47,
+  "aLibelle": "Terrine à la Truffe 180g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 15,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffdc"
+  },
+  "aNum": 42,
+  "aNumProducteur": 47,
+  "aLibelle": "Saucisson",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffdd"
+  },
+  "aNum": 43,
+  "aNumProducteur": 47,
+  "aLibelle": "Chorizo",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffde"
+  },
+  "aNum": 44,
+  "aNumProducteur": 8,
+  "aLibelle": "Spiruline paillettes 100gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 16,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffdf"
+  },
+  "aNum": 45,
+  "aNumProducteur": 8,
+  "aLibelle": "Spiruline paillettes 300gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 45,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe0"
+  },
+  "aNum": 46,
+  "aNumProducteur": 8,
+  "aLibelle": "Spiruline paillettes 1Kg",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 140,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe1"
+  },
+  "aNum": 47,
+  "aNumProducteur": 8,
+  "aLibelle": "Spiruline                  200 comprimés",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 19,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe2"
+  },
+  "aNum": 48,
+  "aNumProducteur": 8,
+  "aLibelle": "Spirolevure (spiruline et levure malté)",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe3"
+  },
+  "aNum": 49,
+  "aNumProducteur": 8,
+  "aLibelle": "Spirugo (spiruline et gomazio)",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 12.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe4"
+  },
+  "aNum": 50,
+  "aNumProducteur": 8,
+  "aLibelle": "Pâte amande à l'abricot et à la spiruline",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe5"
+  },
+  "aNum": 51,
+  "aNumProducteur": 8,
+  "aLibelle": "Pâte amande à la figue à la spiruline",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe6"
+  },
+  "aNum": 52,
+  "aNumProducteur": 8,
+  "aLibelle": "VERVEINE bio 10gr ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe7"
+  },
+  "aNum": 53,
+  "aNumProducteur": 8,
+  "aLibelle": "POIREAUX",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe8"
+  },
+  "aNum": 54,
+  "aNumProducteur": 8,
+  "aLibelle": "POTIMARRON",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffe9"
+  },
+  "aNum": 55,
+  "aNumProducteur": 2,
+  "aLibelle": "Porc de 5kg",
+  "aMesure": "Colis",
+  "aUnitNb": 1,
+  "aUnitPrice": 68,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "colis de 5kg\ncomprenant un rôti, escalope, tranche de rôti, cote échine et première, saucisse\nà 13,60€/kg"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffea"
+  },
+  "aNum": 56,
+  "aNumProducteur": 2,
+  "aLibelle": "1/2 Porc",
+  "aMesure": "Unité",
+  "aUnitNb": 0,
+  "aUnitPrice": 5.5,
+  "aCalculable": false,
+  "aPrecision": "le Kg",
+  "aEnVente": true,
+  "aComment": "demi porc (prix au kg)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffeb"
+  },
+  "aNum": 57,
+  "aNumProducteur": 2,
+  "aLibelle": "Porc",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": false,
+  "aPrecision": "le Kg",
+  "aEnVente": true,
+  "aComment": "porc entier (prix au kg)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffec"
+  },
+  "aNum": 58,
+  "aNumProducteur": 21,
+  "aLibelle": "Ail blanc",
+  "aMesure": "Gr",
+  "aUnitNb": 500,
+  "aUnitPrice": 5.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "grosses têtes"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffed"
+  },
+  "aNum": 59,
+  "aNumProducteur": 21,
+  "aLibelle": "Ail violet",
+  "aMesure": "Gr",
+  "aUnitNb": 500,
+  "aUnitPrice": 5.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "grosses têtes"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffee"
+  },
+  "aNum": 60,
+  "aNumProducteur": 21,
+  "aLibelle": "Ail blanc et violet",
+  "aMesure": "Gr",
+  "aUnitNb": 500,
+  "aUnitPrice": 5.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "petites têtes en mélange "
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffef"
+  },
+  "aNum": 61,
+  "aNumProducteur": 21,
+  "aLibelle": "haricots coco rouge",
+  "aMesure": "Gr",
+  "aUnitNb": 500,
+  "aUnitPrice": 4.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff0"
+  },
+  "aNum": 62,
+  "aNumProducteur": 21,
+  "aLibelle": "haricots coco blanc",
+  "aMesure": "Gr",
+  "aUnitNb": 500,
+  "aUnitPrice": 4.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff1"
+  },
+  "aNum": 63,
+  "aNumProducteur": 21,
+  "aLibelle": "Pâtisson blanc",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff2"
+  },
+  "aNum": 64,
+  "aNumProducteur": 21,
+  "aLibelle": "Pâtisson jaune",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff3"
+  },
+  "aNum": 65,
+  "aNumProducteur": 21,
+  "aLibelle": "Courge Longue de Nice",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff4"
+  },
+  "aNum": 66,
+  "aNumProducteur": 21,
+  "aLibelle": "Potimarron",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff5"
+  },
+  "aNum": 67,
+  "aNumProducteur": 21,
+  "aLibelle": "Sucrine du Berry",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff6"
+  },
+  "aNum": 68,
+  "aNumProducteur": 21,
+  "aLibelle": "Patidou",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff7"
+  },
+  "aNum": 69,
+  "aNumProducteur": 21,
+  "aLibelle": "Petite courge jaune à farcir",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff8"
+  },
+  "aNum": 70,
+  "aNumProducteur": 21,
+  "aLibelle": "Chou vert lisse",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafff9"
+  },
+  "aNum": 71,
+  "aNumProducteur": 21,
+  "aLibelle": "Radis blanc",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafffa"
+  },
+  "aNum": 72,
+  "aNumProducteur": 21,
+  "aLibelle": "Navet gris",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafffb"
+  },
+  "aNum": 73,
+  "aNumProducteur": 37,
+  "aLibelle": "Huile  Vierge 20ml",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafffc"
+  },
+  "aNum": 74,
+  "aNumProducteur": 37,
+  "aLibelle": "Huile  Vierge 25cl",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafffd"
+  },
+  "aNum": 75,
+  "aNumProducteur": 37,
+  "aLibelle": "Huile  Vierge 50cl",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadafffe"
+  },
+  "aNum": 76,
+  "aNumProducteur": 37,
+  "aLibelle": "Graines décortiquées 25g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadaffff"
+  },
+  "aNum": 77,
+  "aNumProducteur": 37,
+  "aLibelle": "Graines décortiquées 200g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0000"
+  },
+  "aNum": 78,
+  "aNumProducteur": 37,
+  "aLibelle": "Farine          400g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0001"
+  },
+  "aNum": 79,
+  "aNumProducteur": 37,
+  "aLibelle": "Pâte à tartiner 180g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 0,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": false,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0002"
+  },
+  "aNum": 80,
+  "aNumProducteur": 37,
+  "aLibelle": "Eau Florale 100ml",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0003"
+  },
+  "aNum": 81,
+  "aNumProducteur": 37,
+  "aLibelle": "Oléolat Mirobolant 50ml",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0004"
+  },
+  "aNum": 82,
+  "aNumProducteur": 37,
+  "aLibelle": "Infusion Volup'thé 7g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 20,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Pur Chanvre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0005"
+  },
+  "aNum": 83,
+  "aNumProducteur": 37,
+  "aLibelle": "Infusion Relaax 20g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Tilleul, Mélisse, Lavande, Chanvre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0006"
+  },
+  "aNum": 84,
+  "aNumProducteur": 37,
+  "aLibelle": "Infusion Inspire 20g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Sarriette, Serpolet, Hysope, Thym, Chanvre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0007"
+  },
+  "aNum": 85,
+  "aNumProducteur": 37,
+  "aLibelle": "Infusion Célèste 20g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Tulsi, Lavande, Calendula, Chanvre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0008"
+  },
+  "aNum": 86,
+  "aNumProducteur": 37,
+  "aLibelle": "Infusion Annapurna 20g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Cataire, Dracocéphale, Origan, Verveine, Agastache, Mauve, Chanvre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0009"
+  },
+  "aNum": 87,
+  "aNumProducteur": 11,
+  "aLibelle": "Gelée royale -10gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 24,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "(cure 1/pers pdt 21 j)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb000a"
+  },
+  "aNum": 88,
+  "aNumProducteur": 11,
+  "aLibelle": "Gelée royale - 2 x 10 gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 22.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb000b"
+  },
+  "aNum": 89,
+  "aNumProducteur": 11,
+  "aLibelle": "Gelée royale - 3 ou 4 ou 5 x 10 gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 21,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Inscrire le nombre de cure dans le tableau (3 ou plus)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb000c"
+  },
+  "aNum": 90,
+  "aNumProducteur": 11,
+  "aLibelle": "Pollen de montagne  - 220 g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 15,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "(frais) à stocker au congélateur"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb000d"
+  },
+  "aNum": 91,
+  "aNumProducteur": 11,
+  "aLibelle": "Miel et gelée royale (5g - 4%) - Pot de 125 gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 15,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb000e"
+  },
+  "aNum": 92,
+  "aNumProducteur": 11,
+  "aLibelle": "Miel, Pollen et gelée royale (2,5 gr - 2%) - Pot de 125 gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb000f"
+  },
+  "aNum": 93,
+  "aNumProducteur": 11,
+  "aLibelle": "Extrait alcoolique de Propolis - 15 ml",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0010"
+  },
+  "aNum": 94,
+  "aNumProducteur": 11,
+  "aLibelle": "Spray extrait alcoolique Propolis et Miel (10 %) - 15 ml",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0011"
+  },
+  "aNum": 95,
+  "aNumProducteur": 11,
+  "aLibelle": "Miel Montagne - 500 gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0012"
+  },
+  "aNum": 96,
+  "aNumProducteur": 11,
+  "aLibelle": "Miel lavande - 500 gr",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0013"
+  },
+  "aNum": 97,
+  "aNumProducteur": 11,
+  "aLibelle": "Miel Montagne -  1 kg",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 18,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0014"
+  },
+  "aNum": 98,
+  "aNumProducteur": 11,
+  "aLibelle": "Miel lavande -  1 kg",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 18,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0015"
+  },
+  "aNum": 99,
+  "aNumProducteur": 11,
+  "aLibelle": "Retour consigne etuis liege",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": -0.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0016"
+  },
+  "aNum": 100,
+  "aNumProducteur": 20,
+  "aLibelle": "Crème de marron Pot de 400g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Recette Traditionnelle"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0017"
+  },
+  "aNum": 101,
+  "aNumProducteur": 20,
+  "aLibelle": "Crème de marron  Carton de 12 pots",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 60,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Recette Traditionnelle"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0018"
+  },
+  "aNum": 102,
+  "aNumProducteur": 20,
+  "aLibelle": "Délice de Chataigne    Pot de 400g",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Moins de sucre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0019"
+  },
+  "aNum": 103,
+  "aNumProducteur": 20,
+  "aLibelle": "Délice de Chataigne Carton de 12 pots",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 60,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Moins de sucre"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb001a"
+  },
+  "aNum": 104,
+  "aNumProducteur": 20,
+  "aLibelle": "6 pots Crèmes et 6 pots Délices",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 60,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Carton mélange"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb001b"
+  },
+  "aNum": 105,
+  "aNumProducteur": 20,
+  "aLibelle": "Pot de 250g                ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "Chataignes au naturel "
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb001c"
+  },
+  "aNum": 106,
+  "aNumProducteur": 15,
+  "aLibelle": "Pin-Up  2020 Rosé pétillant  Syrah Merlot Muscat ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb001d"
+  },
+  "aNum": 107,
+  "aNumProducteur": 15,
+  "aLibelle": "Pin-Up  2020 Rosé pétillant  Syrah Merlot Muscat ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 42,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb001e"
+  },
+  "aNum": 108,
+  "aNumProducteur": 15,
+  "aLibelle": "Pin-Up  2021 Rosé   Syrah Merlot Muscat ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb001f"
+  },
+  "aNum": 109,
+  "aNumProducteur": 15,
+  "aLibelle": "Pin-Up  2021 Rosé   Syrah Merlot Muscat ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 42,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0020"
+  },
+  "aNum": 110,
+  "aNumProducteur": 15,
+  "aLibelle": "Duel  2020 Rouge  Merlot syrah ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0021"
+  },
+  "aNum": 111,
+  "aNumProducteur": 15,
+  "aLibelle": "Duel  2020 Rouge  Merlot syrah ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 42,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0022"
+  },
+  "aNum": 112,
+  "aNumProducteur": 15,
+  "aLibelle": " M  2020 Rouge  Merlot",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0023"
+  },
+  "aNum": 113,
+  "aNumProducteur": 15,
+  "aLibelle": " M  2020 Rouge  Merlot",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 42,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0024"
+  },
+  "aNum": 114,
+  "aNumProducteur": 15,
+  "aLibelle": "Vin de table  2021 Rouge Poche 3 L  NOUVEAU!!",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 24,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0025"
+  },
+  "aNum": 115,
+  "aNumProducteur": 15,
+  "aLibelle": "Astrée  2021 Rouge  Merlot macération carbonique  sans soufre ajouté ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0026"
+  },
+  "aNum": 116,
+  "aNumProducteur": 15,
+  "aLibelle": "Astrée  2021 Rouge  Merlot macération carbonique  sans soufre ajouté ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 54,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0027"
+  },
+  "aNum": 117,
+  "aNumProducteur": 15,
+  "aLibelle": "Cuvée Rituel  2019 Rouge Syrah Elevage Fût chene ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0028"
+  },
+  "aNum": 118,
+  "aNumProducteur": 15,
+  "aLibelle": "Cuvée Rituel  2019 Rouge Syrah Elevage Fût chene ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 54,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0029"
+  },
+  "aNum": 119,
+  "aNumProducteur": 15,
+  "aLibelle": "Cuvée Suprême Dix 2020  Blanc  ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 12,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb002a"
+  },
+  "aNum": 120,
+  "aNumProducteur": 15,
+  "aLibelle": "Cuvée Suprême Dix 2020  Blanc  ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 72,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb002b"
+  },
+  "aNum": 121,
+  "aNumProducteur": 15,
+  "aLibelle": " Petite Bout Teil 2020 Blanc  Gewurztraminer ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb002c"
+  },
+  "aNum": 122,
+  "aNumProducteur": 15,
+  "aLibelle": " Petite Bout Teil 2020 Blanc  Gewurztraminer ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 84,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb002d"
+  },
+  "aNum": 123,
+  "aNumProducteur": 15,
+  "aLibelle": " JLB 2020 Rouge  Pinot Noir   Fût chene",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 13.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb002e"
+  },
+  "aNum": 124,
+  "aNumProducteur": 15,
+  "aLibelle": " JLB 2020 Rouge  Pinot Noir   Fût chene",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 78,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb002f"
+  },
+  "aNum": 125,
+  "aNumProducteur": 15,
+  "aLibelle": "Belle de Mai 2020 Rouge  Merlot/cabernet   Fût chene ",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 13.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0030"
+  },
+  "aNum": 126,
+  "aNumProducteur": 15,
+  "aLibelle": "Belle de Mai 2020 Rouge  Merlot/cabernet   Fût chene ",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 78,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0031"
+  },
+  "aNum": 127,
+  "aNumProducteur": 15,
+  "aLibelle": " Rituel 2020 Rouge  Syrah Grenache   Fût chene",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0032"
+  },
+  "aNum": 128,
+  "aNumProducteur": 15,
+  "aLibelle": " Rituel 2020 Rouge  Syrah Grenache   Fût chene",
+  "aMesure": "Unité",
+  "aUnitNb": 6,
+  "aUnitPrice": 60,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0033"
+  },
+  "aNum": 129,
+  "aNumProducteur": 15,
+  "aLibelle": "Raisin Muscat  de  Hambourg  noir",
+  "aMesure": "Kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 20,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0034"
+  },
+  "aNum": 130,
+  "aNumProducteur": 15,
+  "aLibelle": "Raisin Italia blanc",
+  "aMesure": "Kg",
+  "aUnitNb": 6,
+  "aUnitPrice": 20,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0035"
+  },
+  "aNum": 131,
+  "aNumProducteur": 15,
+  "aLibelle": "Raisin  Mix decouverte",
+  "aMesure": "Kg",
+  "aUnitNb": 7,
+  "aUnitPrice": 20,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0036"
+  },
+  "aNum": 132,
+  "aNumProducteur": 48,
+  "aLibelle": "Oignon jaune",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0037"
+  },
+  "aNum": 133,
+  "aNumProducteur": 48,
+  "aLibelle": "Oignon rouge",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0038"
+  },
+  "aNum": 134,
+  "aNumProducteur": 48,
+  "aLibelle": "Choux vert lisse",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "entier (environ 5kg) demi ou quart"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0039"
+  },
+  "aNum": 135,
+  "aNumProducteur": 48,
+  "aLibelle": "Choux rouge lisse",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "entier (environ 3kg) demi ou quart"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb003a"
+  },
+  "aNum": 136,
+  "aNumProducteur": 48,
+  "aLibelle": "Choux vert frisé",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "entier (environ 4kg) demi ou quart"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb003b"
+  },
+  "aNum": 137,
+  "aNumProducteur": 48,
+  "aLibelle": "Choucroute Crue",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "(conservable un mois au frais, nous avons des barquettes plastiques mais privilégiez vos récipients: bocaux en verre c'est top)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb003c"
+  },
+  "aNum": 138,
+  "aNumProducteur": 48,
+  "aLibelle": "Courges spaghetti",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "à l'unité (environ 2kg)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb003d"
+  },
+  "aNum": 139,
+  "aNumProducteur": 48,
+  "aLibelle": "Petites Courges à farcir Pomme d'Or",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": "à l'unité (80-180g)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb003e"
+  },
+  "aNum": 140,
+  "aNumProducteur": 48,
+  "aLibelle": "Courge à farcir Giraumon Turban",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "à l'unité (environ 2kg)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb003f"
+  },
+  "aNum": 141,
+  "aNumProducteur": 48,
+  "aLibelle": "Courge Buttercup",
+  "aMesure": "Unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "à l'unité (<2kg)"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0040"
+  },
+  "aNum": 142,
+  "aNumProducteur": 48,
+  "aLibelle": "Patates",
+  "aMesure": "Kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "cagettes 5 kg "
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0041"
+  },
+  "aNum": 143,
+  "aNumProducteur": 48,
+  "aLibelle": "Carottes rouges",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0042"
+  },
+  "aNum": 144,
+  "aNumProducteur": 48,
+  "aLibelle": "Carottes oranges",
+  "aMesure": "Kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0043"
+  },
+  "aNum": 145,
+  "aNumProducteur": 26,
+  "aLibelle": "Herbes à Grillade 4€",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0044"
+  },
+  "aNum": 146,
+  "aNumProducteur": 26,
+  "aLibelle": "Herbes de Provence 4€",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0045"
+  },
+  "aNum": 147,
+  "aNumProducteur": 26,
+  "aLibelle": "livèche",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 3.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0046"
+  },
+  "aNum": 148,
+  "aNumProducteur": 26,
+  "aLibelle": "origan",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 3.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0047"
+  },
+  "aNum": 149,
+  "aNumProducteur": 26,
+  "aLibelle": "thym",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 3.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0048"
+  },
+  "aNum": 150,
+  "aNumProducteur": 26,
+  "aLibelle": "sarriette",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 3.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0049"
+  },
+  "aNum": 151,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane Enru b thym hysope bourrache mauve",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb004a"
+  },
+  "aNum": 152,
+  "aNumProducteur": 26,
+  "aLibelle": "Thé des Alpes frêne",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb004b"
+  },
+  "aNum": 153,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane Tilleul, menthe",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb004c"
+  },
+  "aNum": 154,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane Glacier blanc menthe verte, menthe suisse, agastache",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb004d"
+  },
+  "aNum": 155,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane de grand mère romarin sauge cynorodhon",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb004e"
+  },
+  "aNum": 156,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane Saveur citronnée mélisse citronnelle ",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb004f"
+  },
+  "aNum": 157,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane Royale mélisse rose agastache camomille menthe",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0050"
+  },
+  "aNum": 158,
+  "aNumProducteur": 26,
+  "aLibelle": "Tisane Arc en ciel mélisse menthe",
+  "aMesure": "gr",
+  "aUnitNb": 30,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0051"
+  },
+  "aNum": 159,
+  "aNumProducteur": 26,
+  "aLibelle": "Huile de soin calendula",
+  "aMesure": "ml",
+  "aUnitNb": 45,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0052"
+  },
+  "aNum": 160,
+  "aNumProducteur": 26,
+  "aLibelle": "Huile de soin lavande",
+  "aMesure": "ml",
+  "aUnitNb": 45,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0053"
+  },
+  "aNum": 161,
+  "aNumProducteur": 26,
+  "aLibelle": "Huile de soin millepertuis",
+  "aMesure": "ml",
+  "aUnitNb": 45,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0054"
+  },
+  "aNum": 162,
+  "aNumProducteur": 26,
+  "aLibelle": "Huile de soin paquerete",
+  "aMesure": "ml",
+  "aUnitNb": 45,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0055"
+  },
+  "aNum": 163,
+  "aNumProducteur": 26,
+  "aLibelle": "Baumes arnica",
+  "aMesure": "gr",
+  "aUnitNb": 40,
+  "aUnitPrice": 11,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0056"
+  },
+  "aNum": 164,
+  "aNumProducteur": 26,
+  "aLibelle": "Baumes hélichryse",
+  "aMesure": "gr",
+  "aUnitNb": 40,
+  "aUnitPrice": 11,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0057"
+  },
+  "aNum": 165,
+  "aNumProducteur": 26,
+  "aLibelle": "Baumes lavande",
+  "aMesure": "gr",
+  "aUnitNb": 40,
+  "aUnitPrice": 11,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0058"
+  },
+  "aNum": 166,
+  "aNumProducteur": 26,
+  "aLibelle": "Baumes millepertuis",
+  "aMesure": "gr",
+  "aUnitNb": 40,
+  "aUnitPrice": 11,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0059"
+  },
+  "aNum": 167,
+  "aNumProducteur": 26,
+  "aLibelle": "Eau de rose de Boscodon, 100 ml 7€",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb005a"
+  },
+  "aNum": 168,
+  "aNumProducteur": 26,
+  "aLibelle": "Confiture arome Framboise, poivron rouge",
+  "aMesure": "gr",
+  "aUnitNb": 230,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb005b"
+  },
+  "aNum": 169,
+  "aNumProducteur": 26,
+  "aLibelle": "Confiture arome Pêche rose",
+  "aMesure": "gr",
+  "aUnitNb": 230,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb005c"
+  },
+  "aNum": 170,
+  "aNumProducteur": 26,
+  "aLibelle": "Confiture arome Pêche framboise",
+  "aMesure": "gr",
+  "aUnitNb": 230,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb005d"
+  },
+  "aNum": 171,
+  "aNumProducteur": 26,
+  "aLibelle": "Confiture arome Pêche agastache",
+  "aMesure": "gr",
+  "aUnitNb": 230,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb005e"
+  },
+  "aNum": 172,
+  "aNumProducteur": 26,
+  "aLibelle": "Confiture arome Confit d'oignon",
+  "aMesure": "gr",
+  "aUnitNb": 230,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb005f"
+  },
+  "aNum": 173,
+  "aNumProducteur": 40,
+  "aLibelle": "Ecrasé d'olive En vrac ( amener des pots svp !)",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 22,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0060"
+  },
+  "aNum": 174,
+  "aNumProducteur": 40,
+  "aLibelle": "Ecrasé d'olive Pot de 180g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0061"
+  },
+  "aNum": 175,
+  "aNumProducteur": 40,
+  "aLibelle": "Ecrasé d'olive Pot de 90g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0062"
+  },
+  "aNum": 176,
+  "aNumProducteur": 40,
+  "aLibelle": "Nectar d'abricot la bouteille",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0063"
+  },
+  "aNum": 177,
+  "aNumProducteur": 40,
+  "aLibelle": "Nectar d'abricot le carton de 6",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 24,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0064"
+  },
+  "aNum": 178,
+  "aNumProducteur": 40,
+  "aLibelle": "Olives seau de 2kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 30,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0065"
+  },
+  "aNum": 179,
+  "aNumProducteur": 40,
+  "aLibelle": "Olives sachets de 330g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0066"
+  },
+  "aNum": 180,
+  "aNumProducteur": 40,
+  "aLibelle": "huile bio Aop 1l",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 21.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0067"
+  },
+  "aNum": 181,
+  "aNumProducteur": 40,
+  "aLibelle": "huile bio 3l",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 58.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0068"
+  },
+  "aNum": 182,
+  "aNumProducteur": 40,
+  "aLibelle": "huile bio AOP 50 CL",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 12.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0069"
+  },
+  "aNum": 183,
+  "aNumProducteur": 40,
+  "aLibelle": "confiture d'abricot pot de 320g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb006a"
+  },
+  "aNum": 184,
+  "aNumProducteur": 40,
+  "aLibelle": "Petit épeautre  1kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb006b"
+  },
+  "aNum": 185,
+  "aNumProducteur": 40,
+  "aLibelle": "Farine pehp 1kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb006c"
+  },
+  "aNum": 186,
+  "aNumProducteur": 40,
+  "aLibelle": "pâtes petit épeautre  carton de 12x250g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 33.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb006d"
+  },
+  "aNum": 187,
+  "aNumProducteur": 40,
+  "aLibelle": "pâtes petit épeautre  sachets 250g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb006e"
+  },
+  "aNum": 188,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de montagne  Esprit Parc 250g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb006f"
+  },
+  "aNum": 189,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de montagne Esprit Parc 400g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0070"
+  },
+  "aNum": 190,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de montagne 250g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0071"
+  },
+  "aNum": 191,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de montagne 400g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0072"
+  },
+  "aNum": 192,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de fleurs 250g   ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0073"
+  },
+  "aNum": 193,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de fleurs  400g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0074"
+  },
+  "aNum": 194,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de Lavande 250g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0075"
+  },
+  "aNum": 195,
+  "aNumProducteur": 14,
+  "aLibelle": "Miel de lavande 400g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0076"
+  },
+  "aNum": 196,
+  "aNumProducteur": 14,
+  "aLibelle": "Bonbon Miel 90g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0077"
+  },
+  "aNum": 197,
+  "aNumProducteur": 14,
+  "aLibelle": "Bonbon Miel et Propolis 90g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0078"
+  },
+  "aNum": 198,
+  "aNumProducteur": 14,
+  "aLibelle": "Extrait alcoolique de Proplis 15ml",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0079"
+  },
+  "aNum": 199,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin rouge Syrah (Bout de 75 cl)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb007a"
+  },
+  "aNum": 200,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin rouge Syrah (carton de 6 bouteilles)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 43,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb007b"
+  },
+  "aNum": 201,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin rouge Merlot (Bout de 75 cl)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb007c"
+  },
+  "aNum": 202,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin rouge Merlot (carton de 6 bouteilles)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 43,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb007d"
+  },
+  "aNum": 203,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin blanc Pinot Blanc  (Bout de 75 cl)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb007e"
+  },
+  "aNum": 204,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin blanc Pinot Blanc  (carton de 6 bouteilles)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 43,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb007f"
+  },
+  "aNum": 205,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin rosé Syrah (Bout de 75 cl)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0080"
+  },
+  "aNum": 206,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin rosé Syrah (carton de 6 bouteilles)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 43,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0081"
+  },
+  "aNum": 207,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin blanc Chardonnay  (Bout de 75 cl)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0082"
+  },
+  "aNum": 208,
+  "aNumProducteur": 35,
+  "aLibelle": "Vin blanc Chardonnay  (carton de 6 bouteilles)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 43,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0083"
+  },
+  "aNum": 209,
+  "aNumProducteur": 35,
+  "aLibelle": "Carton panaché : R rouge, B blanc, RO rosé (carton de 6)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 43,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0084"
+  },
+  "aNum": 210,
+  "aNumProducteur": 35,
+  "aLibelle": "Champ'Alpes 100% Chardonnay (Bout de 75 cl)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0085"
+  },
+  "aNum": 211,
+  "aNumProducteur": 35,
+  "aLibelle": "Champ'Alpes 100% Chardonnay (carton de 6 bouteilles)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 71,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0086"
+  },
+  "aNum": 212,
+  "aNumProducteur": 35,
+  "aLibelle": "eau de vie de poires William's 0.5L à 22€ (Bout de 0,5L)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 22,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0087"
+  },
+  "aNum": 213,
+  "aNumProducteur": 35,
+  "aLibelle": "Pommes (Plateau de 8 kg)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 23,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0088"
+  },
+  "aNum": 214,
+  "aNumProducteur": 35,
+  "aLibelle": "Pommes (Plateau de 11 kg)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 30,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0089"
+  },
+  "aNum": 215,
+  "aNumProducteur": 35,
+  "aLibelle": "Gelée de pommes (Pot de 370g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 4.5,
+  "aCalculable": false,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb008a"
+  },
+  "aNum": 216,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Blonde (Alc.5%) - 33cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb008b"
+  },
+  "aNum": 217,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Ambrée (Alc.6%) - 33cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb008c"
+  },
+  "aNum": 218,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Session (Alc.4%) - 33cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb008d"
+  },
+  "aNum": 219,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio IPA (Alc.7%) - 33cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb008e"
+  },
+  "aNum": 220,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio SMaSH (Alc.6.5%) - 33cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb008f"
+  },
+  "aNum": 221,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Blanche Café vanille BIO (Alc. 5,0%) - 33cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0090"
+  },
+  "aNum": 222,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Carton 12x33cl (panachage possible : préciser variété et quantité)",
+  "aMesure": "unité",
+  "aUnitNb": 12,
+  "aUnitPrice": 30,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0091"
+  },
+  "aNum": 223,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Blonde (Alc.5%) - 75cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0092"
+  },
+  "aNum": 224,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Ambrée (Alc.6%) - 75cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0093"
+  },
+  "aNum": 225,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Session (Alc.4%) - 75cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0094"
+  },
+  "aNum": 226,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio IPA (Alc.7%) - 75cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0095"
+  },
+  "aNum": 227,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio SMaSH (Alc.6.5%) - 75cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0096"
+  },
+  "aNum": 228,
+  "aNumProducteur": 32,
+  "aLibelle": "Biere Bio Carton 6x75cl (panachage possible : préciser variété et quantité)",
+  "aMesure": "unité",
+  "aUnitNb": 12,
+  "aUnitPrice": 30,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0097"
+  },
+  "aNum": 229,
+  "aNumProducteur": 32,
+  "aLibelle": "Milkshake IPA ACE (Alc. 5,5%) - 44cl",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0098"
+  },
+  "aNum": 230,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de Blé T 80",
+  "aMesure": "kg",
+  "aUnitNb": 25,
+  "aUnitPrice": 39,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb0099"
+  },
+  "aNum": 231,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de Blé T 80",
+  "aMesure": "kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 8.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb009a"
+  },
+  "aNum": 232,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de Blé T 80",
+  "aMesure": "kg",
+  "aUnitNb": 2,
+  "aUnitPrice": 4.4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb009b"
+  },
+  "aNum": 233,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de Blé T 110",
+  "aMesure": "kg",
+  "aUnitNb": 25,
+  "aUnitPrice": 39,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb009c"
+  },
+  "aNum": 234,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de Blé T 110",
+  "aMesure": "kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 8.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb009d"
+  },
+  "aNum": 235,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de Blé T 110",
+  "aMesure": "kg",
+  "aUnitNb": 2,
+  "aUnitPrice": 4.4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb009e"
+  },
+  "aNum": 236,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de SEIGLE T110",
+  "aMesure": "kg",
+  "aUnitNb": 4,
+  "aUnitPrice": 6.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb009f"
+  },
+  "aNum": 237,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de SEIGLE T110",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a0"
+  },
+  "aNum": 238,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de SEIGLE T130",
+  "aMesure": "kg",
+  "aUnitNb": 4,
+  "aUnitPrice": 6.9,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a1"
+  },
+  "aNum": 239,
+  "aNumProducteur": 41,
+  "aLibelle": "Farine de SEIGLE T130",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a2"
+  },
+  "aNum": 240,
+  "aNumProducteur": 41,
+  "aLibelle": "farine d'orge",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a3"
+  },
+  "aNum": 241,
+  "aNumProducteur": 41,
+  "aLibelle": "farine sarrazin",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 4.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a4"
+  },
+  "aNum": 242,
+  "aNumProducteur": 41,
+  "aLibelle": "farine sarrazin",
+  "aMesure": "kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 20,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a5"
+  },
+  "aNum": 243,
+  "aNumProducteur": 41,
+  "aLibelle": "pommes querina",
+  "aMesure": "kg",
+  "aUnitNb": 5,
+  "aUnitPrice": 14,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a6"
+  },
+  "aNum": 244,
+  "aNumProducteur": 41,
+  "aLibelle": "pommes querina",
+  "aMesure": "kg",
+  "aUnitNb": 13,
+  "aUnitPrice": 33.8,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a7"
+  },
+  "aNum": 245,
+  "aNumProducteur": 41,
+  "aLibelle": "jus de pommes ",
+  "aMesure": "L",
+  "aUnitNb": 6,
+  "aUnitPrice": 19.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a8"
+  },
+  "aNum": 246,
+  "aNumProducteur": 41,
+  "aLibelle": "jus de Poires ",
+  "aMesure": "L",
+  "aUnitNb": 6,
+  "aUnitPrice": 19.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00a9"
+  },
+  "aNum": 247,
+  "aNumProducteur": 41,
+  "aLibelle": "jus de fruits assortis",
+  "aMesure": "L",
+  "aUnitNb": 6,
+  "aUnitPrice": 21.8,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "jus assortie 1 pomme 1poire 1 poire framboise 1 pomme cassis 1 poire coing 1 pomme coing"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00aa"
+  },
+  "aNum": 248,
+  "aNumProducteur": 41,
+  "aLibelle": "pommes de terre Désirée",
+  "aMesure": "kg",
+  "aUnitNb": 10,
+  "aUnitPrice": 17,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ab"
+  },
+  "aNum": 249,
+  "aNumProducteur": 41,
+  "aLibelle": "pommes de terre  Cheyenne",
+  "aMesure": "kg",
+  "aUnitNb": 10,
+  "aUnitPrice": 17,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ac"
+  },
+  "aNum": 250,
+  "aNumProducteur": 5,
+  "aLibelle": "Carottes sac de 5kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ad"
+  },
+  "aNum": 251,
+  "aNumProducteur": 5,
+  "aLibelle": "Courges\nPOTIMARRON\nFilet de 5 kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 12.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ae"
+  },
+  "aNum": 252,
+  "aNumProducteur": 5,
+  "aLibelle": "Courge POTIMARRON\nEntière à l'unité",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00af"
+  },
+  "aNum": 253,
+  "aNumProducteur": 5,
+  "aLibelle": "Courges\nBUTTERNUT\nFilet de 6 kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 15,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b0"
+  },
+  "aNum": 254,
+  "aNumProducteur": 5,
+  "aLibelle": "Courge BUTTERNUT\nEntière à l'unité",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b1"
+  },
+  "aNum": 255,
+  "aNumProducteur": 5,
+  "aLibelle": "Radis noir sac de 1kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b2"
+  },
+  "aNum": 256,
+  "aNumProducteur": 5,
+  "aLibelle": "Radis rose asiatiques sac de 1kg",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b3"
+  },
+  "aNum": 257,
+  "aNumProducteur": 5,
+  "aLibelle": "Courge\nSUCRINE du BERRY\nEntière à l'unité",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b4"
+  },
+  "aNum": 258,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon du randonneur (neutre) 120g",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b5"
+  },
+  "aNum": 259,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon du randonneur (neutre) 120g",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b6"
+  },
+  "aNum": 260,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon mielleux (miel et cire d'abeille) ",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b7"
+  },
+  "aNum": 261,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon mielleux (miel et cire d'abeille) ",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b8"
+  },
+  "aNum": 262,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon calenbulles (macérât de calendula)",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00b9"
+  },
+  "aNum": 263,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon calenbulles (macérât de calendula)",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ba"
+  },
+  "aNum": 264,
+  "aNumProducteur": 3,
+  "aLibelle": "savon zest'presso (gommage café orange) ",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00bb"
+  },
+  "aNum": 265,
+  "aNumProducteur": 3,
+  "aLibelle": "savon zest'presso (gommage café orange) ",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00bc"
+  },
+  "aNum": 266,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon bain d'épices (cannelle, orange et cacao)",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00bd"
+  },
+  "aNum": 267,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon bain d'épices (cannelle, orange et cacao)",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00be"
+  },
+  "aNum": 268,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon coquin (orange, ylang-ylang et jus de carottes",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00bf"
+  },
+  "aNum": 269,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon coquin (orange, ylang-ylang et jus de carottes",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c0"
+  },
+  "aNum": 270,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon bulles de rose (eau de rose, géranium et argile rose)",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c1"
+  },
+  "aNum": 271,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon bulles de rose (eau de rose, géranium et argile rose)",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c2"
+  },
+  "aNum": 272,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon lou provencalou (lavandin)",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c3"
+  },
+  "aNum": 273,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon lou provencalou (lavandin)",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c4"
+  },
+  "aNum": 274,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon coup d'éclat (argile verte, graines de pavot, orange, cèdre et menthe poivrée) ",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c5"
+  },
+  "aNum": 275,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon coup d'éclat (argile verte, graines de pavot, orange, cèdre et menthe poivrée) ",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c6"
+  },
+  "aNum": 276,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon glagla (menthe poivrée)",
+  "aMesure": "gr",
+  "aUnitNb": 120,
+  "aUnitPrice": 6.1,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c7"
+  },
+  "aNum": 277,
+  "aNumProducteur": 3,
+  "aLibelle": "Savon glagla (menthe poivrée)",
+  "aMesure": "gr",
+  "aUnitNb": 240,
+  "aUnitPrice": 11.7,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c8"
+  },
+  "aNum": 278,
+  "aNumProducteur": 31,
+  "aLibelle": "Campagne 750g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.1,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00c9"
+  },
+  "aNum": 279,
+  "aNumProducteur": 31,
+  "aLibelle": "Graines 750g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ca"
+  },
+  "aNum": 280,
+  "aNumProducteur": 31,
+  "aLibelle": "Petit épeautre 500g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00cb"
+  },
+  "aNum": 281,
+  "aNumProducteur": 31,
+  "aLibelle": "Seigle moulé 500g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00cc"
+  },
+  "aNum": 282,
+  "aNumProducteur": 31,
+  "aLibelle": "Riz graines 500g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00cd"
+  },
+  "aNum": 283,
+  "aNumProducteur": 31,
+  "aLibelle": "Pompe à l'huile 180g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ce"
+  },
+  "aNum": 284,
+  "aNumProducteur": 31,
+  "aLibelle": "Brioche 300g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00cf"
+  },
+  "aNum": 285,
+  "aNumProducteur": 31,
+  "aLibelle": "Brioche 600g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 10,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d0"
+  },
+  "aNum": 286,
+  "aNumProducteur": 31,
+  "aLibelle": "Apéri graines (1 = 100g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d1"
+  },
+  "aNum": 287,
+  "aNumProducteur": 31,
+  "aLibelle": "Croquants noisettes (1 = 100g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d2"
+  },
+  "aNum": 288,
+  "aNumProducteur": 31,
+  "aLibelle": "Croquants amandes (1 = 100g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d3"
+  },
+  "aNum": 289,
+  "aNumProducteur": 31,
+  "aLibelle": "Canestrelli anis (1 = 100g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d4"
+  },
+  "aNum": 290,
+  "aNumProducteur": 31,
+  "aLibelle": "Canestrelli bergamotte (1 = 100g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d5"
+  },
+  "aNum": 291,
+  "aNumProducteur": 31,
+  "aLibelle": "Canestrelli épices (1 = 100g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 3.2,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d6"
+  },
+  "aNum": 292,
+  "aNumProducteur": 10,
+  "aLibelle": "Terrine Taureau 50% Boeuf 180g Génépi",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": false,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "20€ les 4 assorties"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d7"
+  },
+  "aNum": 293,
+  "aNumProducteur": 10,
+  "aLibelle": "Terrine Taureau 50% Boeuf 180g Olives",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": false,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "20€ les 4 assorties"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d8"
+  },
+  "aNum": 294,
+  "aNumProducteur": 10,
+  "aLibelle": "Terrine Taureau 50% Boeuf 180g Thym ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": false,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "20€ les 4 assorties"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00d9"
+  },
+  "aNum": 295,
+  "aNumProducteur": 10,
+  "aLibelle": "Terrine Taureau 50% Boeuf 180g Romarin",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 5.5,
+  "aCalculable": false,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": "20€ les 4 assorties"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00da"
+  },
+  "aNum": 296,
+  "aNumProducteur": 10,
+  "aLibelle": " Saucisson de Taureau 70% viande Taureau env. 130g ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 6.5,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00db"
+  },
+  "aNum": 297,
+  "aNumProducteur": 10,
+  "aLibelle": " JESUS de Taureau (70%) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 29,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": "Gros saucisson de Taureau d'environ 1,9 kg (Taureau 70%) "
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00dc"
+  },
+  "aNum": 298,
+  "aNumProducteur": 10,
+  "aLibelle": " Demi JESUS de Taureau (70%) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 29,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": "DEMI saucisson de Taureau (environ 0,9 kg ( Taureau 70%) "
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00dd"
+  },
+  "aNum": 299,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU Colis de 5 kg environ / mixte (escalopes, blanquette, rôtis, côtes) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 16.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00de"
+  },
+  "aNum": 300,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU VRAC (sous-vide) hors colis Escalopes (emballées par 2) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 23,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00df"
+  },
+  "aNum": 301,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU Blanquette (poche d'environ 900g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e0"
+  },
+  "aNum": 302,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU rôtis noix ou quasi ",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 21.4,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e1"
+  },
+  "aNum": 303,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU rôtis Epaule",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 19.6,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e2"
+  },
+  "aNum": 304,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU rôtis collier",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 17,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e3"
+  },
+  "aNum": 305,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU FILET Filet entier (+/- 1kg)",
+  "aMesure": "kg",
+  "aUnitNb": 1,
+  "aUnitPrice": 31,
+  "aCalculable": true,
+  "aPrecision": "",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e4"
+  },
+  "aNum": 306,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU Foie (poche de 2 tranches) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 23.6,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e5"
+  },
+  "aNum": 307,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU Tête de Veau (roulée /quart sous-vide)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9.9,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e6"
+  },
+  "aNum": 308,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU rognons (unité) ** quantité limitée = 2 **",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 8.3,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e7"
+  },
+  "aNum": 309,
+  "aNumProducteur": 10,
+  "aLibelle": "VEAU Coeur de Veau (poche de 2 tranches) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 7,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e8"
+  },
+  "aNum": 310,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Côte avec os (emballée à la pièce sous-vide = 400g env.)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 24.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00e9"
+  },
+  "aNum": 311,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Filet entier sous-vide (env. 1 kilo)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 30,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ea"
+  },
+  "aNum": 312,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Rôti Rosbeef (tende de tranche) ou Rumsteak",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 22.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00eb"
+  },
+  "aNum": 313,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Foie tranché (sous-vide 2 tranches) ",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 9.95,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ec"
+  },
+  "aNum": 314,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE - Viande hachée poche de 500g",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 13.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": "GENISSE 100% PURE VIANDE BOVINE sans ajout de gras ou viande de porc SOUS-VIDE hors colis Viande hachée poche de 500g"
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ed"
+  },
+  "aNum": 315,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Steaks hachés (emballés par 4 = 530g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ee"
+  },
+  "aNum": 316,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Saucisses (emballées par poche de 6 = 500g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+},{
+  "_id": {
+    "$oid": "63b580eddb040b20eadb00ef"
+  },
+  "aNum": 317,
+  "aNumProducteur": 10,
+  "aLibelle": "GENISSE Merguez (emballées par poche de 6 = 500g)",
+  "aMesure": "unité",
+  "aUnitNb": 1,
+  "aUnitPrice": 14.5,
+  "aCalculable": false,
+  "aPrecision": "le kg",
+  "aEnVente": true,
+  "aComment": ""
+}]
